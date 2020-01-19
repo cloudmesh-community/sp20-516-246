@@ -1,7 +1,8 @@
 # Week Fri 01/17/20 - 1/24/20
 
-• :+1: Setup my computer with Windows 10 Pro, Python 3.8.1, PyCharm Community
-* :+1: Install an ePub Reader Adobe Digital Editions
+* :+1: Setup computer with Windows 10 Pro, Python 3.8.1, PyCharm Community
+* :+1: Installed an ePub Reader Adobe Digital Editions
+* :+1: Setup and activate ENV3
 * :o2: Update pip
 * :o2: Datacenter assignements, share findings on Piazza, to learn markdown with references, links and bibtex entries
 * :o2: Install multipass
