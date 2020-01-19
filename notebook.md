@@ -4,8 +4,8 @@
 * :+1: Installed an ePub Reader Adobe Digital Editions
 * :+1: Setup and activate ENV3
 * :o2: Update pip
-* :o2: Datacenter assignements, share findings on Piazza, to learn markdown with references, links and bibtex entries
-* :o2: Install multipass
+* :o2: Datacenter assignments, share findings on Piazza, to learn markdown with references, links and bibtex entries
+* :o2: Install multipass, do assignments, E.Multipass.1, E.Multipass.5
 
 
 # Week Fri 01/11/20 - 01/16/20
