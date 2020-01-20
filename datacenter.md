@@ -2,7 +2,7 @@ Data Centers assignment by R.Fischer
 
 **Cologix** data center **COL3** in Columbus, Ohio: 
 
-160K sqft, 18MW of computing, opened in 2018
+160K sqft, 18MW of computing (112.5 watts/sqft), opened in 2018
 
 from: https://data-economy.com/cologix-invests-130m-triple-ohio-data-centre-business/
 
@@ -16,4 +16,4 @@ Industrial: 10.2 cents per kW/hr
 Also in Columbus, OH,  **Expedient** data center, https://www.datacenters.com/expedient-columbus-upper-arlington
 
 20,000 sqft,
-1.75Mw
+1.75Mw, or 87.5 watts/sqft
