@@ -5,6 +5,7 @@
 * :+1: Installed an ePub Reader Adobe Digital Editions
 * :+1: Setup and activate ENV3 on both laptop and Mac
 * :+1: Install multipass on laptop and Mac 
+* :+1: Ordered raspberry pi cluster gear per google sheet for project
 * :o2: Update pip
 * :o2: Datacenter assignments, share findings on Piazza, to learn markdown with references, links and bibtex entries
 * :o2: Do assignments, E.Multipass.1, E.Multipass.5
