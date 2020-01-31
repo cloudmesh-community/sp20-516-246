@@ -7,7 +7,7 @@
 * :+1: Refreshing python knowledge, especially classes
 * :+1: Installed emacs, trying to figure it out
 * :+1: Received raspberry pis and supporting accessories for cluster
-* :o2: Datacenter assignments, share findings on Piazza, to learn markdown with references, links and bibtex entries
+* :o2: Datacenter assignments, learn markdown with references, links and bibtex entries
 * :o2: Do assignments, E.Multipass.1, E.Multipass.5
 
 ## Week 01/20/20 - 1/26/20
