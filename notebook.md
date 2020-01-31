@@ -3,7 +3,7 @@
 ## Week 01/27/20 - 2/2/20
 * :+1: Joined class calls
 * :+1: Setup multipass
-* :+1: Linked PyCharm and cloudmesh directory - having trouble committing
+* :+1: Linked PyCharm and cloudmesh directory
 * :+1: Refreshing python knowledge, especially classes
 * :+1: Installed emacs, trying to figure it out
 * :+1: Received raspberry pis and supporting accessories for cluster
