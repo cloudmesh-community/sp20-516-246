@@ -4,7 +4,7 @@
 * :+1: Joined class calls
 * :+1: Setup multipass
 * :+1: Linked PyCharm and cloudmesh directory
-* :+1: Refreshing python knowledge, especially classes
+* :o2: Refreshing python knowledge, especially classes - see python_os.py  having completing assignment
 * :+1: Installed Emacs and JabRef, trying to figure them out
 * :+1: Received raspberry pis and supporting accessories for cluster
 * :+1: Datacenter assignments, learn markdown with references, links 
@@ -14,7 +14,7 @@
 #### E.Multipass.1:  
 Add installation instruction for your operating system to Cloud Computing document.
 
-_Unsure what to add as I had help on multiple occasions from instructor during class sessions._   
+_Unsure what to include as I had help on multiple occasions from professor during class sessions._   
 
 #### E.Multipass.5:  
 Provide more extensive examples for find  •https://multipass.run/docs/find-command  •https://launchpad.net/ubuntu/+series
@@ -25,11 +25,9 @@ Provide a list of images that are supported on your system.
 
 (ENV3) C:\Users\Rhonda>multipass find --format csv
 
-Image,Remote,Aliases,OS,Release,Version
-
-16.04,,xenial,Ubuntu,16.04 LTS,20200129
-
-18.04,,bionic;lts,Ubuntu,18.04 LTS,20200129.1
+| Image | Remote | Aliases | OS | Release | Version |  
+| 16.04 |  | xenial | Ubuntu | 16.04 LTS | 20200129 |  
+| 18.04 |  | bionic;lts | Ubuntu | 18.04 LTS | 20200129.1 |
 
 
 
