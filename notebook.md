@@ -5,7 +5,7 @@
 * :+1: Setup multipass
 * :+1: Linked PyCharm and cloudmesh directory
 * :+1: Refreshing python knowledge, especially classes
-* :+1: Installed emacs, trying to figure it out
+* :+1: Installed Emacs and JabRef, trying to figure them out
 * :+1: Received raspberry pis and supporting accessories for cluster
 * :o2: Datacenter assignments, learn markdown with references, links and bibtex entries
 * :o2: Do assignments, E.Multipass.1, E.Multipass.5
