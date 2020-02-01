@@ -8,7 +8,7 @@
 * :+1: Installed Emacs and JabRef, trying to figure them out
 * :+1: Received raspberry pis and supporting accessories for cluster
 * :o2: Datacenter assignments, learn markdown with references, links and bibtex entries
-* :o2: Do assignments, E.Multipass.1, E.Multipass.5
+* :+1: Do assignments, E.Multipass.1, E.Multipass.5
 
 #### E.Multipass.1:  
 Add installation instruction for your operating system to Cloud Computing document.
@@ -27,6 +27,7 @@ Provide a list of images that are supported on your system.
 Image,Remote,Aliases,OS,Release,Version
 
 16.04,,xenial,Ubuntu,16.04 LTS,20200129
+
 18.04,,bionic;lts,Ubuntu,18.04 LTS,20200129.1
 
 
