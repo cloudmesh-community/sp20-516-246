@@ -7,7 +7,8 @@
 * :+1: Refreshing python knowledge, especially classes
 * :+1: Installed Emacs and JabRef, trying to figure them out
 * :+1: Received raspberry pis and supporting accessories for cluster
-* :o2: Datacenter assignments, learn markdown with references, links and bibtex entries
+* :+1: Datacenter assignments, learn markdown with references, links 
+* :o2:and bibtex entries - still learning how
 * :+1: Do assignments, E.Multipass.1, E.Multipass.5
 
 #### E.Multipass.1:  
