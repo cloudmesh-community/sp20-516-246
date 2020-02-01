@@ -22,9 +22,9 @@ Also in Columbus, OH,  **Expedient** data center, <https://www.datacenters.com/e
 
 ## E.Datacenter.3
 
-Personal carbon usage 
+Personal carbon usage 50 tons CO2 eq/year, see image
 
-![](images/personalcarbon.png)
+![](images/personalcarbon.PNG)
 
 ## E.Datacenter.4
 
