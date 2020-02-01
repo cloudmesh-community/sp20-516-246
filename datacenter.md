@@ -1,6 +1,6 @@
 # Data Centers assignment by R.Fischer
 
-## Subsection
+## E.DataCenter.1
 
 **Cologix** data center **COL3** in Columbus, Ohio: 
 
@@ -19,3 +19,14 @@ Also in Columbus, OH,  **Expedient** data center, <https://www.datacenters.com/e
 
 20,000 sqft,
 1.75Mw, or 87.5 watts/sqft
+
+## E.Datacenter.3
+
+Personal carbon usage 
+
+![](images/personalcarbon.png)
+
+## E.Datacenter.4
+
+Pick a renewal energy from Section 4.1.10 and describe what it is. Find data centers that use this energy form. Include the information in your hid directory under the file datacenter.md
+
