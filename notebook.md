@@ -4,7 +4,7 @@
 * :+1: Joined class calls
 * :+1: Setup multipass
 * :+1: Linked PyCharm and cloudmesh directory
-* :o2: Refreshing python knowledge, especially classes - see python_os.py  having completing assignment
+* :o2: Refreshing python knowledge, especially classes - see python_os.py  having trouble completing assignment
 * :+1: Installed Emacs and JabRef, trying to figure them out
 * :+1: Received raspberry pis and supporting accessories for cluster
 * :+1: Datacenter assignments, learn markdown with references, links 
