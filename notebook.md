@@ -13,6 +13,7 @@
 #### E.Multipass.1:  
 Add installation instruction for your operating system to Cloud Computing document.
 
+_Unsure what to add as I had help on multiple occasions from instructor during class sessions._   
 
 #### E.Multipass.5:  
 Provide more extensive examples for find  •https://multipass.run/docs/find-command  •https://launchpad.net/ubuntu/+series
@@ -22,7 +23,9 @@ Focal (20.04) Trusty (14.04); Precise (12.04)
 Provide a list of images that are supported on your system.
 
 (ENV3) C:\Users\Rhonda>multipass find --format csv
+
 Image,Remote,Aliases,OS,Release,Version
+
 16.04,,xenial,Ubuntu,16.04 LTS,20200129
 18.04,,bionic;lts,Ubuntu,18.04 LTS,20200129.1
 
