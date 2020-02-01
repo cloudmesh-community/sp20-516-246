@@ -31,7 +31,6 @@ Image,Remote,Aliases,OS,Release,Version
 
 
 
-
 ## Week 01/20/20 - 1/26/20
 * :+1: Setup Dell laptop with Windows 10 Pro, Python 3.8.1, PyCharm Community
 * :+1: Setup Mac desktop with Python 3.8.1, PyCharm Community
