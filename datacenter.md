@@ -50,7 +50,7 @@ A small lSP and hosting company in Woodstock, Illinois, Other World Computing (O
 
 
 There is growing capacity for wind generated electricity.
-For example, Indiana had 2,317 MW of wind capacity in 2018 vs 130 MW in 2008, with the primary purchasers being utility companies: Duke, Vectren, American Electric Power (AEP), IPL (Indianapolis Power and Light (IPL), Dominion Energy (<https://en.wikipedia.org/wiki/Wind_power_in_Indiana>).
+For example, Indiana had 2,317 MW of wind capacity in 2018 vs 130 MW in 2008, with the primary purchasers being utility companies: Duke, Vectren, American Electric Power (AEP), Indianapolis Power and Light (IPL), Dominion Energy (<https://en.wikipedia.org/wiki/Wind_power_in_Indiana>).
 
 "Indiana possesses viable wind resources in much of the northern half of the state (maps: <https://www.in.gov/oed/2425.htm>).  As wind power technology improves, wholesale markets increase and green energy becomes more valuable, Indiana can maximize its wind resources by selling wind power into markets with higher electricity costs. This allows wind producers to find the best markets without jeopardizing Indiana's low electricity rates. As of 2011, wind energy made up 2.7% of Indiana's electricity generation." <https://www.in.gov/oed/2413.htm>
 
