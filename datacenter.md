@@ -39,12 +39,12 @@ Energy from the wind is transformed into electricity, often within wind farms, t
 
 from <https://www.datacenterknowledge.com/wind-powered-data-centers/>
 
-While there is increasing capacity from utilities providing wind sourced electricity, it's rare for a data site to have on-site wind generators.  The above web site includes examples of the handful of working data centers that use on-site wind generation to provide power for their servers, including below [@WindDC-sp20-516-246].
+While there is increasing capacity from utilities providing wind sourced electricity, it's rare for a data site to have on-site wind generators.  The web site includes examples of the handful of working data centers that use on-site wind generation to provide power for their servers.
 
 **Other World Computing** (Illinois)
 Data Center Powered By The Wind
 
-A small lSP and hosting company in Woodstock, Illinois, Other World Computing (OWC) may be the first data center operator in the U.S. to power its facility entirely with wind power from an on-site turbine. In 2009, OWC began using a 131-foot-tall wind turbine to provide all the electric power for its building, which includes the company’s headquarters and a data center supporting its web hosting and ISP services.
+A small lSP and hosting company in Woodstock, Illinois, Other World Computing (OWC) may be the first data center operator in the U.S. to power its facility entirely with wind power from an on-site turbine. In 2009, OWC began using a 131-foot-tall wind turbine to provide all the electric power for its building, which includes the company’s headquarters and a data center supporting its web hosting and ISP services [@WindDC-sp20-516-246].
 
 ## E.Datacenter.5:
 
