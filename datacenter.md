@@ -1,4 +1,4 @@
-# Data Centers assignment by R.Fischer, sp20-516-246
+# Data Centers assignment by R.Fischer sp20-516-246
 
 ## E.DataCenter.1-2b
 
@@ -46,7 +46,7 @@ Data Center Powered By The Wind
 
 A small lSP and hosting company in Woodstock, Illinois, Other World Computing (OWC) may be the first data center operator in the U.S. to power its facility entirely with wind power from an on-site turbine. In 2009, OWC began using a 131-foot-tall wind turbine to provide all the electric power for its building, which includes the company’s headquarters and a data center supporting its web hosting and ISP services [@WindDC-sp20-516-246].
 
-## E.Datacenter.5:
+## E.Datacenter.5
 
 There is growing capacity for wind generated electricity.
 For example, Indiana had 2,317 MW of wind capacity in 2018 vs 130 MW in 2008, with the primary purchasers being utility companies: Duke, Vectren, American Electric Power (AEP), Indianapolis Power and Light (IPL), Dominion Energy [@INWind-sp20-516-246].
@@ -57,7 +57,7 @@ For example, Indiana had 2,317 MW of wind capacity in 2018 vs 130 MW in 2008, wi
 
 According to the US Dept of Energy, wind energy projects bring economic benefits to a region.  Rural electric cooperatives or municipal utilities are encouraged to own community wind projects and use them to diversify electricity supplies and to engage stakeholders in their local energy projects [@WindEnergy-sp20-516-246]. <https://windexchange.energy.gov/projects/economic-impacts>
 
-## E.Datacenter.8:
+## E.Datacenter.8
 
 "Currently, there are several statistics floating around the industry about the cost of downtime. For instance, a frequently-cited 2013 study from the Ponemon Institute states that the price of unplanned downtime in the U.S. costs $7,900 for each minute that ticks by. Another survey from CA Technologies noted that downtime costs small businesses upwards of $55,000 per year, and more than $1 million per year for large enterprises. Gartner analyst Andrew Lerner pegged network downtime at around $5,600 per minute in 2014 [@DCDowntime-sp20-516-246]." <https://datacenterfrontier.com/how-calculate-data-center-downtime/>
 

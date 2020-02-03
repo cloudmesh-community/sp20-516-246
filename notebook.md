@@ -1,5 +1,8 @@
 # Notebook Rhonda Fischer sp20-516-246
 
+## Week 2/3/20 - 2/9/20
+* :+1: Corrected bibtex entries in datacenter.md
+
 ## Week 01/27/20 - 2/2/20
 * :+1: Joined class calls
 * :+1: Setup multipass

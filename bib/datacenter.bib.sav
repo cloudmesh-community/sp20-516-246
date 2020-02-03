@@ -1,0 +1,76 @@
+% Encoding: UTF-8
+
+@Misc{EnergyRates-sp20-516-246,
+  title        = {U.{S}. {U}tility {R}ate {D}atabase},
+  howpublished = {Web page},
+  organization = {OpenEI},
+  url          = {https://openei.org/apps/USURDB/?utilRateFinder=City+of+Columbus%2C+Ohio+%28Utility+Company%29&service_type=&is_default=&search=},
+}
+
+@Misc{OhioDC-sp20-516-246,
+  author       = {Lima, João Marques},
+  title        = {Cologix {I}nvests $130m to {T}riple {O}hio {D}ata {C}entre {B}usiness},
+  howpublished = {Web page},
+  month        = feb,
+  year         = {2018},
+  organization = {Data | Economy},
+  url          = {https://data-economy.com/cologix-invests-130m-triple-ohio-data-centre-business/},
+}
+
+@Misc{Expedient-sp20-516-246,
+  title        = {Expedient: {C}olumbus - {U}pper {A}rlington {D}ata {C}enter},
+  howpublished = {Web page},
+  organization = {DataCenters.com},
+  url          = {https://www.datacenters.com/expedient-columbus-upper-arlington},
+}
+
+@Misc{WindDC-sp20-516-246,
+  title        = {Wind-{P}owered {D}ata {C}enters},
+  howpublished = {Web page},
+  month        = jul,
+  year         = {2010},
+  organization = {DataCenter Knowledge},
+  url          = {https://www.datacenterknowledge.com/wind-powered-data-centers/},
+}
+
+@Misc{INWind-sp20-516-246,
+  title        = {Wind power in {I}ndiana},
+  howpublished = {Wep page},
+  url          = {https://en.wikipedia.org/wiki/Wind_power_in_Indiana},
+}
+
+@Misc{INWindPower-sp20-516-246,
+  title = {Wind {P}ower at {IN}.gov},
+  url   = {https://www.in.gov/oed/2413.htm},
+}
+
+@Misc{WindEnergy-sp20-516-246,
+  title = {Wind {E}nergy's {E}conomic {I}mpacts to {C}ommunities},
+  owner = {energy.gov},
+  url   = {https://windexchange.energy.gov/projects/economic-impacts},
+}
+
+@Misc{DCDowntime-sp20-516-246,
+  title = {How to {C}alculate {D}ata {C}enter {D}owntime},
+  month = oct,
+  year  = {2015},
+  owner = {Voices of Industry},
+  url   = {https://datacenterfrontier.com/how-calculate-data-center-downtime/},
+}
+
+@Misc{ExOutages-sp20-516-246,
+  author = {Raza, Muhammad},
+  title  = {Five {E}xamples of {IT} {N}etwork {O}utages from 2018},
+  month  = may,
+  year   = {2019},
+  url    = {https://www.bmc.com/blogs/network-outages/},
+}
+
+@Article{V,
+  author  = {Creedy, Steve},
+  title   = {Booking glitch earns {V}irgin $20{M} in compo},
+  journal = {The Australian},
+  year    = {2014},
+}
+
+@Comment{jabref-meta: databaseType:bibtex;}
