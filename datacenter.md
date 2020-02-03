@@ -1,4 +1,6 @@
-# Data Centers assignment by R.Fischer
+# Data Centers  R.Fischer, :o2: HID
+
+:o2: Please learn markdown, special education section required
 
 ## E.DataCenter.1-2b
 
@@ -27,6 +29,10 @@ Personal carbon usage 50 tons CO2 eq/year, see image
 ![](images/personalcarbon.PNG)
 
 ## E.Datacenter.4
+
+:o2: empty lines
+
+:o2: section levels wrong
 
 #### Wind as Renewable Energy
 Energy from the wind is transformed into electricity, often within wind farms, through the use of large blades attached to turbines on top of tall posts (> 100 ft tall) to capture air movement where it is faster.   
