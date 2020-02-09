@@ -1,23 +1,38 @@
-# 14 steps outlined to install cloudmesh-installer and multipass in Windows 10 Pro environment
-## See detail in next section (line numbers in bullets from Pycharm editor)
-1. Ensure up-to-date versions of python and pip [line numbers: 24 -34]
-2. Install python in ENV3 environment [35]
-3. Activate ENV3 [37]
-4. Ensure ENV3 has up-to-date versions of pip (error message updating pip can
+# 15 steps outlined to install cloudmesh-installer and multipass in Windows 10 Pro environment
+## First step: install Visual C++
+* Microsoft Visual Studio installer (installed the blue checks
+ visible
+ in the next print screen)
+![](images/VSprintscreen.PNG)
+* Update path to cl.exe in "Advanced System Settings" **Environment Variables**
+![](images/EnvironmentVariables.png)
+* Add to environment variable: path
+
+![](images/Path.PNG)
+* directory added to path
+ 
+ C:\Program Files (x86)\Microsoft Visual Studio\2019
+\Community\VC
+\Tools\MSVC\14.24.28314\bin\Hostx64\x64\
+## For steps 2-15 see detail in next section (line numbers in bullets from Pycharm editor)
+2. Ensure up-to-date versions of python and pip [line numbers: 40 -50]
+3. Install python in ENV3 environment [51]
+4. Activate ENV3 [53]
+5. Ensure ENV3 has up-to-date versions of pip (error message updating pip can
  be ignored because version does get updated)
-5. Install cloudmesh-installer [64 -]
-6. Ensure cloudmesh-installer is up-to-date [100 - ]
-7. In cm directory, use cloudmesh-installer to clone cms from github [118 -]
-8. Install cms [146 -]
-9. Use cms commands: help, banner, debug, set list [322-402]
-10. Use cloudmesh-installer to clone cloudmesh-windows in cm directory
- [404
--628]
-11. Run cms windows check [643 - 696]
-12. Use cloudmesh-installer to clone multipass in cm dir [698-739]
-13. Install multipass (fill up your coffee and watch for errors; the two times
- manual errors show is known and not a problem) [744 - 1419 ]
-14. Run cms multipass images [1515]
+6. Install cloudmesh-installer [80 -]
+7. Ensure cloudmesh-installer is up-to-date [116 - ]
+8. In cm directory, use cloudmesh-installer to clone cms from github [134 -]
+9. Install cms [162 -]
+10. Use cms commands: help, banner, debug, set list [338-418]
+11. Use cloudmesh-installer to clone cloudmesh-windows in cm directory
+ [420
+-644]
+12. Run cms windows check [659 - 712]
+13. Use cloudmesh-installer to clone multipass in cm dir [713-755]
+14. Install multipass (fill up your coffee and watch for errors; the two times
+ manual errors show is known and not a problem) [760 - 1425 ]
+15. Run cms multipass images [1531]
 
 ## Screen capture text
 C:\Users\Rhonda>color f0
