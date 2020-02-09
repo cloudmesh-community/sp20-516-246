@@ -1,7 +1,12 @@
 # Notebook Rhonda Fischer sp20-516-246
 
 ## Week 2/3/20 - 2/9/20
-* :+1: Corrected bibtex entries in datacenter.md
+* :+1: Corrected bibtex entries in datacenter.bib
+* :+1: Corrected line spacing and other details in datacenter.md
+* :+1: Ensured cloudmesh, cms & multipass loaded correctly on Windows
+* :+1: Loaded Raspbian on SD card and runnning on raspberry pi as part of project, reading pi cluster documentation 
+* :+1: Started researching AI in cloud for chapter assignment
+* :+1: Joined class calls
 
 ## Week 01/27/20 - 2/2/20
 * :+1: Joined class calls
