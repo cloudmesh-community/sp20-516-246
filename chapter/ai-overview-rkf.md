@@ -42,8 +42,7 @@ Cloud AI services are growing; as a result the industry
   approaches.
  
 from Datamation
-<https://www.datamation.com/cloud-computing/artificial-intelligence-as-a
--service-ai-meets-the-cloud.html>
+<https://www.datamation.com/cloud-computing/artificial-intelligence-as-a-service-ai-meets-the-cloud.html>
 
 AI as a service offerings make one or more of these types of artificial intelligence technologies available as a cloud service. Currently, the AI as a service products on the market generally fall into the following categories:
 
