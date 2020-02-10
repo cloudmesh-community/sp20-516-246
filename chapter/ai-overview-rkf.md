@@ -19,7 +19,10 @@ Apart from offering the APIs and infrastructure, cloud providers are competing t
 
 from Datamation, AI in the Cloud Boosts Cloud Performance, <https://www.datamation.com/cloud-computing/ai-in-the-cloud-boosts-cloud-performance.html>
 
-But while enterprises might be enthusiastic about the potential of AI, they also recognize that successful deployment of the technology poses significant challenges. In that same survey, 91 percent of respondents anticipated barriers to AI adoption. More specifically, 40 percent didn't believe they had the right infrastructure to support AI. 
+While enterprises are enthusiastic about the potential of AI, they also
+ recognize that successful deployment of the technology poses significant
+  challenges. In a recent survey, 91 percent of respondents anticipated
+   barriers to AI adoption. More specifically, 40 percent didn't believe they had the right infrastructure to support AI. 
 
  Utilizing cloud AI services offers a number of benefits:
 
