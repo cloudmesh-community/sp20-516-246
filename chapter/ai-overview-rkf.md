@@ -1,8 +1,7 @@
 # AI Cloud Overview sp20-516-246 Rhonda Fischer
 ## Why AI in the cloud
 from Cloud Academy
-<https://cloudacademy.com/blog/what-are-the-benefits-of-machine-learning-in
--the-cloud/>
+<https://cloudacademy.com/blog/what-are-the-benefits-of-machine-learning-in-the-cloud/>
 
 You don’t need to use a cloud provider to build a machine learning solution. After all, there are plenty of open source machine learning frameworks, such as TensorFlow, MXNet, and CNTK that companies can run on their own hardware. However, companies building sophisticated machine learning models in-house are likely to run into issues scaling their workloads, because training real-world models typically requires large compute clusters.
 
