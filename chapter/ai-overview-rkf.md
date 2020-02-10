@@ -8,7 +8,10 @@ You don’t need to use a cloud provider to build a machine learning solution. A
 
 The barriers to entry for bringing machine learning capabilities to enterprise applications are high on many fronts. The specialized skills required to build, train, and deploy machine learning models and the computational and special-purpose hardware requirements add up to higher costs for labor, development, and infrastructure.
 
-These are problems that cloud computing can solve and the leading public cloud platforms are on a mission to make it easier for companies to leverage machine learning capabilities to solve business problems without the full tech burden.
+These are problems that cloud computing can solve and the leading public
+ cloud platforms are on a mission to make it easier for companies to leverage
+  machine learning capabilities to solve business problems without the full
+   tech burden [@sp20-516-246-AIServ].
 
 from Forbes
 <https://www.forbes.com/sites/janakirammsv/2018/02/22/the-rise-of-artificial-intelligence-as-a-service-in-the-public-cloud/#6fc83136198e>

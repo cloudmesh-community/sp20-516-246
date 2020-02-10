@@ -1,10 +1,10 @@
 # Notebook Rhonda Fischer sp20-516-246
-## Week 2/10/20 - 2/16/20
+## Week 5 2/10/20 - 2/16/20
 * :+1: Continued researching Cloud AI Overview chapter
 * :o2: Chapter bibtex TBD
 * :o2: Chameleon assignment
 
-## Week 2/3/20 - 2/9/20
+## Week 4 2/3/20 - 2/9/20
 * :+1: Corrected bibtex entries in datacenter.bib
 * :+1: Corrected line spacing and other details in datacenter.md
 * :+1: Ensured cloudmesh, cms & multipass loaded correctly on Windows
@@ -12,7 +12,7 @@
 * :+1: Started researching AI in cloud for chapter assignment
 * :+1: Joined class calls
 
-## Week 01/27/20 - 2/2/20
+## Week 3 01/27/20 - 2/2/20
 * :+1: Joined class calls
 * :+1: Setup multipass
 * :+1: Linked PyCharm and cloudmesh directory
@@ -43,7 +43,7 @@ Provide a list of images that are supported on your system.
 
 
 
-## Week 01/20/20 - 1/26/20
+## Week 2 01/20/20 - 1/26/20
 * :+1: Setup Dell laptop with Windows 10 Pro, Python 3.8.1, PyCharm Community
 * :+1: Setup Mac desktop with Python 3.8.1, PyCharm Community
 * :+1: Installed an ePub Reader Adobe Digital Editions
@@ -54,7 +54,7 @@ Provide a list of images that are supported on your system.
 * :o2: Datacenter assignments, share findings on Piazza, to learn markdown with references, links and bibtex entries
 * :o2: Do assignments, E.Multipass.1, E.Multipass.5
 
-## Week 01/13/20 - 01/19/20
+## Week 1 01/13/20 - 01/19/20
 * :+1: Removed Anaconda
 * :+1: Created an account on https:github.com
 * :+1: Created a chameleon account on chameleoncloud.org 
