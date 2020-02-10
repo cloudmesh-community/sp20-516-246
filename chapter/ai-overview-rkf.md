@@ -1,4 +1,4 @@
-# Rhonda's notes for AI Cloud Overview chapter
+# AI Cloud Overview sp20-516-246 Rhonda Fischer
 ## Why AI in the cloud
 from Cloud Academy
 <https://cloudacademy.com/blog/what-are-the-benefits-of-machine-learning-in
@@ -53,13 +53,13 @@ AI as a service offerings make one or more of these types of artificial intellig
  
 The "holy grail" of AI as a service would be to create a general artificial intelligence that could be accessed as a cloud service. A general artificial intelligence is a computer system that can think and communicate in all the same ways that humans can. Most experts believe that researchers are still many years away from creating general AI, if they will ever be able to do so at all.
 
-![](images/aiservicevendors.PNG)
+![](chapter/images/aiservicevendors.PNG)
 
 from
 <https://cloudacademy.com/blog/what-are-the-benefits-of-machine-learning-in
 -the-cloud/>
 
-![](images/aiservicevendors2.PNG)
+![](chapter/images/aiservicevendors2.PNG)
 
 From Datamation: The Top Cloud-Based AI Services <https://www.datamation.com/artificial-intelligence/the-top-cloud-based-ai-services.html>
 
