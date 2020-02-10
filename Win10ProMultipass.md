@@ -1396,7 +1396,7 @@ Installing collected packages: cloudmesh-multipass
   Running setup.py develop for cloudmesh-multipass
 Successfully installed cloudmesh-multipass
 
-
+```
 ######################################################################
 # Platform
 ######################################################################
@@ -1529,7 +1529,9 @@ ERROR: Could not execute the command. Please check usage with
 
 
 (ENV3) C:\Users\Rhonda\cm>cms multipass images
+```
 
+```
 # ----------------------------------------------------------------------
 # arguments
 # ----------------------------------------------------------------------
@@ -1559,3 +1561,4 @@ ERROR: Could not execute the command. Please check usage with
 | 18.04 | Ubuntu | 18.04 LTS |        | 20200129.1 | ['bionic', 'lts'] |
 +-------+--------+-----------+--------+------------+-------------------+
 None
+```
