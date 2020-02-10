@@ -61,8 +61,7 @@ The "holy grail" of AI as a service would be to create a general artificial inte
 ![](images/aiservicevendors.PNG)
 
 from
-<https://cloudacademy.com/blog/what-are-the-benefits-of-machine-learning-in
--the-cloud/>
+<https://cloudacademy.com/blog/what-are-the-benefits-of-machine-learning-in-the-cloud/>
 
 ![](images/aiservicevendors2.PNG)
 
@@ -77,8 +76,7 @@ From Datamation: The Top Cloud-Based AI Services <https://www.datamation.com/art
 7. **Baidu**:	Mirrors Google in terms of features and specialized accelerator chips.
 
 ## Cloud & AI fueling each other's growth
-from <https://www.technology.org/2018/03/28/cloud-based-ai-market-poised-for
--ten-fold-growth/>
+from <https://www.technology.org/2018/03/28/cloud-based-ai-market-poised-for-ten-fold-growth/>
 
 The global IaaS market is forecast to reach USD 56.05 billion by 2020 at a CAGR of 29 percent, with the largest market share retained by North America. The Asia-Pacific (APAC) market is expected to see the highest annual growth rate of 35.8 percent by virtue of the rapidly-rising technology adoption in Australia, India and China.
 
