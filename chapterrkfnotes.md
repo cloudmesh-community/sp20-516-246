@@ -12,6 +12,7 @@ These are problems that cloud computing can solve and the leading public cloud p
 
 from Forbes
 <https://www.forbes.com/sites/janakirammsv/2018/02/22/the-rise-of-artificial-intelligence-as-a-service-in-the-public-cloud/#6fc83136198e>
+
 Apart from offering the APIs and infrastructure, cloud providers are competing to build tools for data scientists and developers. These tools are tightly integrated with the data platform and compute platform, which will indirectly drive the consumption of VMs, containers, storage, and databases.
 
 from Datamation, AI in the Cloud Boosts Cloud Performance, <https://www.datamation.com/cloud-computing/ai-in-the-cloud-boosts-cloud-performance.html>
