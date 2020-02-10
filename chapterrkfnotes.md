@@ -32,8 +32,9 @@ But while enterprises might be enthusiastic about the potential of AI, they also
 5. **Low Costs**— This article has already mentioned the financial advantages of cloud-based AI several times, but it bears repeating. The cloud computing model allows organizations to pay only for the computing resources that they are using for their AI application deployments. That eliminates the need for costly upfront capital expenses, allows organizations to convert their infrastructure costs to operational expenses, and often reduces the overall price tag for artificial intelligence projects.
 
 ## Types of Cloud AI services and how they are grouped
-The list of AI cloud services are growing; as a result the industry starts to
- separate the services into subcategories.  Below are several approaches.
+Cloud AI services are growing; as a result the industry
+ separates Cloud AI services into subcategories.  Following are several grouping
+  approaches.
  
 from Datamation
 <https://www.datamation.com/cloud-computing/artificial-intelligence-as-a
@@ -70,5 +71,13 @@ From Datamation: The Top Cloud-Based AI Services <https://www.datamation.com/art
 6. **Salesforce**:	Easy and rapid development of apps; adds AI to Salesforce’s comprehensive CRM offerings.
 7. **Baidu**:	Mirrors Google in terms of features and specialized accelerator chips.
 
+## Cloud & AI fueling each other's growth
+from <https://www.technology.org/2018/03/28/cloud-based-ai-market-poised-for
+-ten-fold-growth/>
 
+The global IaaS market is forecast to reach USD 56.05 billion by 2020 at a CAGR of 29 percent, with the largest market share retained by North America. The Asia-Pacific (APAC) market is expected to see the highest annual growth rate of 35.8 percent by virtue of the rapidly-rising technology adoption in Australia, India and China.
+
+The Middle East market, which presently stands at USD 2.66 billion, is expected to see a three-fold rise to reach a market size of USD 8.79 billion in the next five years. While Qatar will be at the forefront in market adoption, other countries such as Bahrain, Egypt, Iran, Israel, Kuwait, Oman and Turkey are expected to expand their market reach rapidly buoyed by the growth of cloud and analytics, IoT, Bring Your Own Device (BYOD) and other cloud-dependent technologies.
+
+As the technologies rapidly evolve, AI and cloud will not just be indispensable but also mutually interdependent, with the development of cloud technology having a direct bearing on the developments in AI capabilities.
 
