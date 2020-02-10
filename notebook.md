@@ -1,4 +1,8 @@
 # Notebook Rhonda Fischer sp20-516-246
+## Week 2/10/20 - 2/16/20
+* :+1: Continued researching Cloud AI Overview chapter
+* :o2: Chapter bibtex TBD
+* :o2: Chameleon assignment
 
 ## Week 2/3/20 - 2/9/20
 * :+1: Corrected bibtex entries in datacenter.bib
