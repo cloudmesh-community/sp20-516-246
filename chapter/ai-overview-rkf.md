@@ -56,12 +56,12 @@ The "holy grail" of AI as a service would be to create a general artificial inte
 
 ![](images/aiservicevendors.PNG)
 
-from
-<https://cloudacademy.com/blog/what-are-the-benefits-of-machine-learning-in-the-cloud/>
+Cloud Academy groups a little differently in the next table [@sp20-516-246
+-AIServ]
 
 ![](images/aiservicevendors2.PNG)
 
-From Datamation: The Top Cloud-Based AI Services <https://www.datamation.com/artificial-intelligence/the-top-cloud-based-ai-services.html>
+Datamation also groups by the service provider and what they do best [@sp20-516-246-TopCloud].  
 
 1. **IBM** Watson:	Largest and most diverse set of AI services; established and mature program in Watson; IBM Global Services is unmatched in consulting.
 2. **Amazon** Web Services:	Rapidly maturing set of services based around its popular consumer products; runs on AWS, the top cloud service provider
