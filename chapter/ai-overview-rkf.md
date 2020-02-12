@@ -1,8 +1,5 @@
 # AI Cloud Overview sp20-516-246 Rhonda Fischer
 ## Why AI in the cloud
-from Cloud Academy
-<https://cloudacademy.com/blog/what-are-the-benefits-of-machine-learning-in-the-cloud/>
-
 You don’t need to use a cloud provider to build a machine learning solution. After all, there are plenty of open source machine learning frameworks, such as TensorFlow, MXNet, and CNTK that companies can run on their own hardware. However, companies building sophisticated machine learning models in-house are likely to run into issues scaling their workloads, because training real-world models typically requires large compute clusters.
 
 The barriers to entry for bringing machine learning capabilities to enterprise applications are high on many fronts. The specialized skills required to build, train, and deploy machine learning models and the computational and special-purpose hardware requirements add up to higher costs for labor, development, and infrastructure.
@@ -12,19 +9,19 @@ These are problems that cloud computing can solve and the leading public
   machine learning capabilities to solve business problems without the full
    tech burden [@sp20-516-246-AIServ].
 
-from Forbes
-<https://www.forbes.com/sites/janakirammsv/2018/02/22/the-rise-of-artificial-intelligence-as-a-service-in-the-public-cloud/#6fc83136198e>
-
-Apart from offering the APIs and infrastructure, cloud providers are competing to build tools for data scientists and developers. These tools are tightly integrated with the data platform and compute platform, which will indirectly drive the consumption of VMs, containers, storage, and databases.
-
-from Datamation, AI in the Cloud Boosts Cloud Performance, <https://www.datamation.com/cloud-computing/ai-in-the-cloud-boosts-cloud-performance.html>
+Apart from offering the APIs and infrastructure, cloud providers are
+ competing to build tools for data scientists and developers. These tools are
+  tightly integrated with the data platform and compute platform, which will
+   indirectly drive the consumption of VMs, containers, storage, and
+    databases [@sp20-516-246-AIRise].
 
 While enterprises are enthusiastic about the potential of AI, they also
  recognize that successful deployment of the technology poses significant
   challenges. In a recent survey, 91 percent of respondents anticipated
-   barriers to AI adoption. More specifically, 40 percent didn't believe they had the right infrastructure to support AI. 
+   barriers to AI adoption. More specifically, 40 percent didn't believe they
+    had the right infrastructure to support AI [@sp20-516-246-AICloudBoost]. 
 
- Utilizing cloud AI services offers a number of benefits:
+ Utilizing cloud AI services offers a number of benefits [@sp20-516-246-AICloudBoost]:
 
 1. **Access to Advanced Compute Infrastructure** — Machine learning and neural networks require massive amounts of parallel processing power. To meet that need, AI applications must run on systems with advanced graphic processing units (GPUs). However, those systems can be very expensive — making them somewhat impractical for pilot projects. Using a cloud service allows enterprises to get the compute resources they need for AI initiatives while paying only for what they use. And if a pilot project doesn't pan out, they can easily shut it down without being saddled with expensive hardware they no longer need.
 
@@ -40,11 +37,11 @@ While enterprises are enthusiastic about the potential of AI, they also
 Cloud AI services are growing; as a result the industry
  separates Cloud AI services into subcategories.  Following are several grouping
   approaches.
- 
-from Datamation
-<https://www.datamation.com/cloud-computing/artificial-intelligence-as-a-service-ai-meets-the-cloud.html>
 
-AI as a service offerings make one or more of these types of artificial intelligence technologies available as a cloud service. Currently, the AI as a service products on the market generally fall into the following categories:
+AI as a service offerings make one or more of these types of artificial
+ intelligence technologies available as a cloud service. According to
+  Datamation, the AI as a service products on the market generally fall into
+   the following categories [@sp20-516-246-AICloudBoost]:
 
 * **Bots and digital assistants**:For many people, the first thing that comes to
  mind when they hear the phrase "artificial intelligence" is a digital assistant like Apple's Siri, Microsoft's Cortana or Amazon's Alexa. These tools use natural language processing technology to carry on conversations with users, and many also use machine learning to improve their skills over time. Many enterprises want to add similar functionality to their products and websites. In fact, according to IDC, the AI use case that saw the most spending in 2017 was automated customer service agents. But creating your own bot from scratch is a monumental undertaking. As an alternative, several vendors offer bot platforms as a service. Organizations train the bots with their own data and then use them to answer simple questions, freeing up human customer service agents for more complicated tasks.
