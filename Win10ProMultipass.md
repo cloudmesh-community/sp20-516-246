@@ -3,7 +3,7 @@
 * Used Microsoft Visual Studio Community version installer plus the Build Tools
  for Visual Studio on the same download site lower down under "Tools for
   Visual Studio 2019"
-<https://visualstudio.microsof.com/downloads/> (installed the blue checks
+<https://visualstudio.microsoft.com/downloads/> (installed the blue checks
  visible
  in the next print screen)
 ![](images/VSprintscreen.PNG)
