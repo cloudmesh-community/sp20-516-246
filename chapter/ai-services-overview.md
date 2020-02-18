@@ -1,13 +1,15 @@
 # AI Cloud Overview sp20-516-246 Rhonda Fischer
+
 ## Why AI in the cloud
+
 You don’t need to use a cloud provider to build a machine learning solution. After all, there are plenty of open source machine learning frameworks, such as TensorFlow, MXNet, and CNTK that companies can run on their own hardware. However, companies building sophisticated machine learning models in-house are likely to run into issues scaling their workloads, because training real-world models typically requires large compute clusters.
 
 The barriers to entry for bringing machine learning capabilities to enterprise applications are high on many fronts. The specialized skills required to build, train, and deploy machine learning models and the computational and special-purpose hardware requirements add up to higher costs for labor, development, and infrastructure.
 
 These are problems that cloud computing can solve and the leading public
- cloud platforms are on a mission to make it easier for companies to leverage
-  machine learning capabilities to solve business problems without the full
-   tech burden [@sp20-516-246-AIServ].
+cloud platforms are on a mission to make it easier for companies to leverage
+machine learning capabilities to solve business problems without the full
+tech burden [@sp20-516-246-AIServ].
 
 Apart from offering the APIs and infrastructure, cloud providers are
  competing to build tools for data scientists and developers. These tools are
