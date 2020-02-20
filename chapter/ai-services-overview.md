@@ -1,4 +1,4 @@
-# AI Cloud Overview sp20-516-246 Rhonda Fischer
+# AI Cloud Overview sp20-516-246 Rhonda Fischer and Sara Lam
 
 ## Why AI in the cloud
 
