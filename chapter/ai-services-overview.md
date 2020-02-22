@@ -106,7 +106,7 @@ China also has world-leading companies in computer vision, speech recognition an
 
 Meanwhile, the U.S. is cutting back on science funding.  
 
-### Hybrid cloud is the trend (more to come ........)
+### Multicloud and hybrid cloud are the trend (more to come ........)
 
 Hybrid cloud is a computing environment that combines a public cloud and a private cloud by allowing data and applications to be shared between them.  
 
@@ -116,7 +116,13 @@ With the initial exploration and adoption of cloud, many companies find public c
 
 * **Offers benefits from public and private clouds**: more to come.........
 
+Advantages from public cloud: <https://www.netapp.com/us/info/what-is-hybrid-cloud.aspx>
 
+  * Scalability - almost unlimited due to on-demand cloud resources
+  * Low capital expenditure - no need to purchase all data center equipment
+  * Reliability - due to services distributed across multiple data centers
+
+From private cloud: 
 
 * **Use existing architecture in data center**: more to come.........
 
