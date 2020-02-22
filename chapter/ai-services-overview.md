@@ -108,23 +108,13 @@ Meanwhile, the U.S. is cutting back on science funding.
 
 ### Multicloud and hybrid cloud are the trend (more to come ........)
 
-Hybrid cloud is a computing environment that combines a public cloud and a private cloud by allowing data and applications to be shared between them.  
+Multicloud is subscription to multiple cloud services such as AWS, Azure.  It is a strategy to avoid vendor lock-in.  Companies choose multicloud to support demand and business continuity.  
 
-from <https://www.netapp.com/us/info/what-is-hybrid-cloud.aspx>
+Hybrid cloud is a computing environment that combines a public cloud and a private cloud by allowing data and applications to be shared between them.  from <https://www.netapp.com/us/info/what-is-hybrid-cloud.aspx> As the cloud computing era matures, many companies find public cloud or private cloud alone does not meet their needs. Hybrid cloud has the advantages from public clouds, including scalability, low capital expenditure, and reliability due to distribution across data centers.  It also has advantages from private clouds, including security, greater control and customization, and flexibility.  
 
-With the initial exploration and adoption of cloud, many companies find public cloud or private cloud alone does not meet their needs. Hybrid cloud has these advantages:
+<https://www.netapp.com/us/info/what-is-hybrid-cloud.aspx>
 
-* **Offers benefits from public and private clouds**: more to come.........
 
-Advantages from public cloud: <https://www.netapp.com/us/info/what-is-hybrid-cloud.aspx>
-
-   * Scalability - almost unlimited due to on-demand cloud resources
-   * Low capital expenditure - no need to purchase all data center equipment
-   * Reliability - due to services distributed across multiple data centers
-
-From private cloud: 
-
-* **Use existing architecture in data center**: more to come.........
 
 ### Growth of the edge
 
