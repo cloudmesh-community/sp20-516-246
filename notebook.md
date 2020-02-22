@@ -1,8 +1,17 @@
 # Notebook Rhonda Fischer sp20-516-246
+## Week 5 2/17/20 - 2/23/20
+* :+1: Met with Sara on Cloud AI Overview chapter
+* :+1: Completed setting up master and 4 worker Pis
+* :+1: Met with Pi team on approach, followed-up with Jessica to
+ catch her up with Pi project
+* :+1: Learning how to connect cluster to larger network, reviewing draft
+ outline from professor
+
+
 ## Week 5 2/10/20 - 2/16/20
 * :+1: Continued researching Cloud AI Overview chapter
-* :o2: Chapter bibtex TBD
-* :o2: Chameleon assignment
+* :+1: Chapter bibtex started
+* :o2: Started setting up Pi cluster using cm-pi-burn.md
 
 ## Week 4 2/3/20 - 2/9/20
 * :+1: Corrected bibtex entries in datacenter.bib
