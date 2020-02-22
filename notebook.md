@@ -1,5 +1,5 @@
 # Notebook Rhonda Fischer sp20-516-246
-## Week 5 2/17/20 - 2/23/20
+## Week 6 2/17/20 - 2/23/20
 * :+1: Met with Sara on Cloud AI Overview chapter
 * :+1: Completed setting up master and 4 worker Pis
 * :+1: Met with Pi team on approach, followed-up with Jessica to
