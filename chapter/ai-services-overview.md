@@ -90,7 +90,13 @@ Companies who will be successful are those who adopt data and analytics and appl
 
 from <https://www2.deloitte.com/content/dam/Deloitte/us/Documents/process-and-operations/us-what-to-expect-in-2020-around-cloud.pdf>
 
-### Hybrid cloud is the trend (to add more........)
+### China is becoming the leader (more to come.......)
+
+In 2017, China set an ambitious goal to become the world leader in AI by 2030.  from <https://www.nytimes.com/2017/07/20/business/china-artificial-intelligence.htm> China invests heavily in exploratory projects, start-ups and academic research in AI.  The plan covers industries from homeland security, surveillance, military, to medicine, agriculture and manufacturing.  
+
+Meanwhile, the U.S. is cutting back on science funding.  
+
+### Hybrid cloud is the trend (more to come ........)
 
 Hybrid cloud is a computing environment that combines a public cloud and a private cloud by allowing data and applications to be shared between them.  
 
@@ -98,10 +104,12 @@ Hybrid cloud is a computing environment that combines a public cloud and a priva
 
 Edge computing brings computation and data storage closer to the location where it is needed, to improve response time and save bandwidth.  from <https://en.wikipedia.org/wiki/Edge_computing> The benefit of edge computing is speed and cost savings. <https://www.theverge.com/circuitbreaker/2018/5/7/17327584/edge-computing-cloud-google-microsoft-apple-amazon> Take voice assistant as an example, when you speak to the VA, if it has to send data thousands of miles away to a data center, process the request, and send response back, the latency is high.  Edge computing relies on the edge computing hardware, or even your device for processing and give you the answer much faster.  An edge computing gateway can process data from an edge device, send on relevant data through the cloud, reducing bandwidth needs.  Real-time AI applications, e.g. self-driving cars, smart cities, facial recognition, will benefit from the fast processing and response from edge computing.  from <https://www.networkworld.com/article/3224893/what-is-edge-computing-and-how-it-s-changing-the-network.html>
 
-### Culture will make a difference 
+Forrester predicts that the edge cloud market will grow by at least 50% in 2020.  Industry players including major cloud providers, 5G providers, platform software providers are working to provide infrastructure-as-a-service (IaaS) on distributed edge computing infrastructure.  The expansion of edge computing is driven by growing maturity of edge platforms, the supporting technologies such as 5G and Wi-Fi 6 connectivity, and increasing use cases of analytics and machine learning. from <https://go.forrester.com/blogs/predictions-2020-edge-computing/>
+
+### Culture will make a difference in success
 
 Future of work is a holistic human-machine relationship.  Companies move the fastest when they create strong culture.  Too many companies just focus on technology but not leading people.  This creates an atmosphere of distrust and fear especially when the technology is intrusive.  It is important for employees to understand the roles of AI and people, what the impacts are, and how they can upskill, reskill and contribute.  A culture that embraces change and drives change is essential for the success of digital transformation.
 
 
 
-Forrester predicts that the edge cloud market will grow by at least 50% in 2020.  Industry players including major cloud providers, 5G providers, platform software providers are working to provide infrastructure-as-a-service (IaaS) on distributed edge computing infrastructure.  The expansion of edge computing is driven by growing maturity of edge platforms, the supporting technologies such as 5G and Wi-Fi 6 connectivity, and increasing use cases of analytics and machine learning. from <https://go.forrester.com/blogs/predictions-2020-edge-computing/>
+
