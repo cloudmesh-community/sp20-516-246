@@ -77,11 +77,15 @@ Datamation also groups by the service provider and what they do best [@sp20-516-
 
 Companies face numerous challenges when adopting AI in the cloud. <https://www.disruptordaily.com/challenges-ai-cloud-computing/>
 
+* Lack of focus on business needs - when CIOs only focus on getting the latest technology, but lack the understanding of business needs and strategy, they acquire AI and cloud but do not know what business questions they can answer.  <https://www2.deloitte.com/us/en/insights/industry/technology/technology-media-and-telecom-predictions/cloud-based-artificial-intelligence.html> 
+
 * Integration - with early success of pilot programs and proof-of-concept use cases, it is often challenging to deploy AI services in the enterprise workflow, and integrate with systems and processes to benefit users.  
 
 * Privacy and security concerns - with so much personal and sensitive data in the cloud, there is a risk that everything about a person or entity can be known and misused.  AI can be manipulated to create false information and misguide decisions. 
 
 * Data quality - AI in the cloud operates best when data quality is abundant and quality is high.  However, data is often siloed, incomplete, with poor quality.  Such data could cause incorrect insight.  Companies need to first have a data strategy and infrastructure before adopting AI in the cloud.
+
+* Talent gap - while AI services on the cloud reduce the need for specialized development skills, the packaged AI solutions are available to everyone so it does not help a company gain a competitive edge.  To differentiate from competitors, companies need to use AI development services to develop customized solutions.  This will require at least some experts in the company.
 
 ## Future of AI and Cloud
 
