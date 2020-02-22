@@ -73,6 +73,16 @@ Datamation also groups by the service provider and what they do best [@sp20-516-
 6. **Salesforce**:	Easy and rapid development of apps; adds AI to Salesforce’s comprehensive CRM offerings.
 7. **Baidu**:	Mirrors Google in terms of features and specialized accelerator chips.
 
+## Challenges and concerns in adopting AI in the cloud
+
+Companies face numerous challenges when adopting AI in the cloud. <https://www.disruptordaily.com/challenges-ai-cloud-computing/>
+
+* Integration - with early success of pilot programs and proof-of-concept use cases, it is often challenging to deploy AI services in the enterprise workflow, and integrate with systems and processes to benefit users.  
+
+* Privacy and security concerns - with so much personal and sensitive data in the cloud, there is a risk that everything about a person or entity can be known and misused.  AI can be manipulated to create false information and misguide decisions. 
+
+* Data quality - AI in the cloud operates best when data quality is abundant and quality is high.  However, data is often siloed, incomplete, with poor quality.  Such data could cause incorrect insight.  Companies need to first have a data strategy and infrastructure before adopting AI in the cloud.
+
 ## Future of AI and Cloud
 
 ### Cloud & AI fueling each other's growth
