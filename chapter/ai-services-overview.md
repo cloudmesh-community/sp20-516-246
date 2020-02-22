@@ -118,9 +118,9 @@ With the initial exploration and adoption of cloud, many companies find public c
 
 Advantages from public cloud: <https://www.netapp.com/us/info/what-is-hybrid-cloud.aspx>
 
-  * Scalability - almost unlimited due to on-demand cloud resources
-  * Low capital expenditure - no need to purchase all data center equipment
-  * Reliability - due to services distributed across multiple data centers
+   * Scalability - almost unlimited due to on-demand cloud resources
+   * Low capital expenditure - no need to purchase all data center equipment
+   * Reliability - due to services distributed across multiple data centers
 
 From private cloud: 
 
