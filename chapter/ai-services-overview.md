@@ -80,13 +80,9 @@ Appanion also compares the platform and strategy of AI services providers, and l
 1. **Google** Cloud Services: A flexible solution to start off with, with the opportunity to scale and use a vast number of highly mature machine learning tools.
 2. **Microsoft** Azure: Using Microsoft technology stack, integrate analytics solutions but still provide extensive AI and machine learning possibilities.
 3. **Amazon** Web Services: When voice integration or natural language processing is your focus or performance and API connectivity are central issues.
-
-
-Do you need a user-friendly interface with full control over the data flows and still cutting-edge capabilities in the fields of artificial intelligence? Give Watson a go.
-Do you use Salesforce already for enterprise apps or CRM and want to build applications around customer data? You can’t go wrong with trying Einstein and Salesforces’ AWS integrations.
-Is SAP your ERP system, you use business objects and you may even want to choose between a cloud and an on-premise solution? Have a look at the SAP Cloud Platform
-
-
+4. **IBM** Watson: Provides a user-friendly interface with full control over the data flows and still cutting-edge capabilities in the fields of artificial intelligence.
+5. **Salesforce** AWS integrations: For companies that already use Salesforce already for enterprise apps or CRM and want to build applications around customer data.
+6. **SAP** Cloud Platform: For companies using SAP as the ERP system, Business Objects, etc. 
 
 ## Challenges to overcome in adopting AI in the cloud
 
