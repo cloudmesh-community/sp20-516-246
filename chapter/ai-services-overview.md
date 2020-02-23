@@ -63,7 +63,7 @@ Cloud Academy groups a little differently in the next table [@sp20-516-246
 
 ![](images/aiservicevendors2.PNG)
 
-## Choosing AI services and providers
+## Choosing cloud based AI services and providers
 
 ### Datamation groups by the service provider and what they do best [@sp20-516-246-TopCloud].  
 
