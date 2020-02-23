@@ -75,7 +75,7 @@ Cloud Academy groups a little differently in the next table [@sp20-516-246
 6. **Salesforce**:	Easy and rapid development of apps; adds AI to Salesforce’s comprehensive CRM offerings.
 7. **Baidu**:	Mirrors Google in terms of features and specialized accelerator chips.
 
-### Appanion also compares the platform and strategy of AI services providers, and lists their strengths based on what is needed. <https://medium.com/appanion/machine-learning-as-a-service-the-top-cloud-platform-and-ai-vendors-2df45d51374d>
+### Appanion also compares the platform and strategy of AI services providers, and lists their strengths based on what is needed [@sp20-516-246-AI-cloud-vendors].
 
 1. **Google** Cloud Services: A flexible solution to start off with, with the opportunity to scale and use a vast number of highly mature machine learning tools.
 2. **Microsoft** Azure: Using Microsoft technology stack, integrate analytics solutions but still provide extensive AI and machine learning possibilities.
@@ -86,7 +86,7 @@ Cloud Academy groups a little differently in the next table [@sp20-516-246
 
 ### Cloud pricing comparison
 
-HostingAdvice.com provides a simple comparion pricing of the top 3 cloud providers for small, medium and large enterprises.  <https://www.hostingadvice.com/how-to/aws-azure-google-cloud-alternatives/>
+HostingAdvice.com provides a simple comparion pricing of the top 3 cloud providers for small, medium and large enterprises [@sp20-516-246-pricing]. 
 
 #### AWS vs. Azure vs. Google Cloud — For Beginners & Startups
 
@@ -110,9 +110,9 @@ AWS is generally is the provider of lowest costs based on this simple comparison
 
 ## Challenges to overcome in adopting AI in the cloud
 
-Companies face numerous challenges when adopting AI in the cloud. <https://www.disruptordaily.com/challenges-ai-cloud-computing/>
+Companies face numerous challenges when adopting AI in the cloud [@sp20-516-246-challenges].
 
-* Focus on business needs - when CIOs only focus on getting the latest technology, but lack the understanding of business needs and strategy, they acquire AI and cloud but do not know what business questions they can answer.  <https://www2.deloitte.com/us/en/insights/industry/technology/technology-media-and-telecom-predictions/cloud-based-artificial-intelligence.html> 
+* Focus on business needs - when CIOs only focus on getting the latest technology, but lack the understanding of business needs and strategy, they acquire AI and cloud but do not know what business questions they can answer [@sp20-516-246-challenges2].
 
 * Integration - with early success of pilot programs and proof-of-concept use cases, it is often challenging to deploy AI services in the enterprise workflow, and integrate with systems and processes to benefit users.  
 
@@ -124,8 +124,7 @@ Companies face numerous challenges when adopting AI in the cloud. <https://www.d
 
 ## Future of AI and Cloud
 
-### Cloud & AI fueling each other's growth
-from <https://www.technology.org/2018/03/28/cloud-based-ai-market-poised-for-ten-fold-growth/>
+### Cloud & AI fueling each other's growth [@sp20-516-246-fuel]
 
 The global IaaS market is forecast to reach USD 56.05 billion by 2020 at a CAGR of 29 percent, with the largest market share retained by North America. The Asia-Pacific (APAC) market is expected to see the highest annual growth rate of 35.8 percent by virtue of the rapidly-rising technology adoption in Australia, India and China.
 
