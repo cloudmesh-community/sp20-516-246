@@ -94,7 +94,15 @@ Cloud Academy groups a little differently in the next table [@sp20-516-246
 
 #### AWS vs. Azure vs. Google Cloud — For Mid-Size Companies
 
+@fig:sp20-516-246-pricing-midsize.PNG shows cloud pricing for mid-size companies
+
+![For Mid-Size Companies](images/pricing-midsize.PNG){#fig:sp20-516-246-pricing-midsize.PNG}
+
 #### AWS vs. Azure vs. Google Cloud — For Enterprises
+
+@fig:sp20-516-246-pricing-large.PNG shows cloud pricing for enterprise
+
+![For Enterprises](images/pricing-large.PNG){#fig:sp20-516-246-pricing-large.PNG}
 
 HostingAdvice.com compares pricing of the top 3 cloud providers for small, medium and large enterprises.  
 
