@@ -86,6 +86,8 @@ Cloud Academy groups a little differently in the next table [@sp20-516-246
 
 ### Cloud pricing comparison
 
+HostingAdvice.com provides a simple comparion pricing of the top 3 cloud providers for small, medium and large enterprises.  <https://www.hostingadvice.com/how-to/aws-azure-google-cloud-alternatives/>
+
 #### AWS vs. Azure vs. Google Cloud — For Beginners & Startups
 
 @fig:sp20-516-246-pricing-small.PNG shows cloud pricing for beginners & startups
@@ -104,7 +106,7 @@ Cloud Academy groups a little differently in the next table [@sp20-516-246
 
 ![For Enterprises](images/pricing-large.PNG){#fig:sp20-516-246-pricing-large.PNG}
 
-HostingAdvice.com compares pricing of the top 3 cloud providers for small, medium and large enterprises.  
+The costs on cloud instances will depend on the instance types you choose, the regions you run in, whether you need local disk for your instances, and your use of discounts.  Cloud providers have calculators on their sites to calculate pricing based on your scenario and AI services you choose.
 
 ## Challenges to overcome in adopting AI in the cloud
 
