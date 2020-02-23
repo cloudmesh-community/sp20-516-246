@@ -106,7 +106,7 @@ HostingAdvice.com provides a simple comparion pricing of the top 3 cloud provide
 
 ![For Enterprises](images/pricing-large.PNG){#fig:sp20-516-246-pricing-large.PNG}
 
-The costs on cloud instances will depend on the instance types you choose, the regions you run in, whether you need local disk for your instances, and your use of discounts.  Cloud providers have calculators on their sites to calculate pricing based on your scenario and AI services you choose.
+AWS is generally is the provider of lowest costs based on this simple comparison.  The actual costs on cloud instances will depend on the instance types you choose, the regions you run in, whether you need local disk for your instances, and your use of discounts.  Cloud providers have calculators on their sites to calculate pricing based on your scenario and AI services you choose.
 
 ## Challenges to overcome in adopting AI in the cloud
 
@@ -153,17 +153,11 @@ from <https://www.nature.com/articles/d41586-019-02360-7>
 
 China also has world-leading companies in computer vision, speech recognition and natural language processing.  But it is lagging behind the U.S. in core techonologies such as open-source platforms, e.g. Tensorflow and Caffe, made by U.S. industry and academia.  It is also behind in AI hardware such as semiconductor chips.  It can take China 5 to 10 years to catch up with the U.S. in fundamental research and technologies.  With its ambitions, strategy and investments, it will reach the goals.
 
-Meanwhile, the U.S. is cutting back on science funding.  
+### Multicloud and hybrid cloud are the trend
 
-### Multicloud and hybrid cloud are the trend (more to come ........)
+Multicloud is subscription to multiple cloud services such as AWS, Azure.  It is a strategy to avoid dependency on a single provider, allowing you to switch provider later more easily due to changes in services and pricing.  By using multiple providers, you also can choose each provider's services based on your use case, applications and workloads.  Multinational organizations can find optimal choice for each region.  Each business unit can meet their different demands. <https://www.cloudhealthtech.com/blog/multicloud-advantages-disadvantages>  Multicloud also has disadvantages, including complexity in securing data and prevent leakage, losing discount perks from a single provider, and complexity in managing the multicloud environment.  Companies will need the resources and skills to manage cost, performance, security and plan capacity across multiple providers. 
 
-Multicloud is subscription to multiple cloud services such as AWS, Azure.  It is a strategy to avoid vendor lock-in.  Companies choose multicloud to support demand and business continuity.  
-
-Hybrid cloud is a computing environment that combines a public cloud and a private cloud by allowing data and applications to be shared between them.  from <https://www.netapp.com/us/info/what-is-hybrid-cloud.aspx> As the cloud computing era matures, many companies find public cloud or private cloud alone does not meet their needs. Hybrid cloud has the advantages from public clouds, including scalability, low capital expenditure, and reliability due to distribution across data centers.  It also has advantages from private clouds, including security, greater control and customization, and flexibility.  
-
-<https://www.netapp.com/us/info/what-is-hybrid-cloud.aspx>
-
-
+Hybrid cloud is a computing environment that combines a public cloud and a private cloud by allowing data and applications to be shared between them.  from <https://www.netapp.com/us/info/what-is-hybrid-cloud.aspx> As the cloud computing era matures, many companies find public cloud or private cloud alone does not meet their needs. Hybrid cloud has the many advantages.  Companies can maintain their workload in private cloud but has the ability to spontaneously handle spike in demand, pay for public cloud only when needed.  You get a centralized private infrastructure on premise, and latency is reduced to improve computational efficiency.  Hybrid cloud also has disadvantages, such as a high initial setup cost, the need for expert IT resources for deployment and ensure data security, risk of cloud compatability across on-premise and public clouds.  These concerns will need to be addressed in a hybrid cloud strategy.    <https://vexxhost.com/blog/adv-disadv-of-hybrid-cloud/>
 
 ### Growth of the edge
 
@@ -171,7 +165,7 @@ Edge computing brings computation and data storage closer to the location where 
 
 Forrester predicts that the edge cloud market will grow by at least 50% in 2020.  Industry players including major cloud providers, 5G providers, platform software providers are working to provide infrastructure-as-a-service (IaaS) on distributed edge computing infrastructure.  The expansion of edge computing is driven by growing maturity of edge platforms, the supporting technologies such as 5G and Wi-Fi 6 connectivity, and increasing use cases of analytics and machine learning. from <https://go.forrester.com/blogs/predictions-2020-edge-computing/>
 
-### Culture will make a difference in success
+### Culture will make a difference in successful adoption of AI and cloud
 
 Future of work is a holistic human-machine relationship.  Companies move the fastest when they create strong culture.  Too many companies just focus on technology but not leading people.  This creates an atmosphere of distrust and fear especially when the technology is intrusive.  It is important for employees to understand the roles of AI and people, what the impacts are, and how they can upskill, reskill and contribute.  A culture that embraces change and drives change is essential for the success of digital transformation.
 
