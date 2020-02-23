@@ -65,7 +65,7 @@ Cloud Academy groups a little differently in the next table [@sp20-516-246
 
 ## How to choose AI services and providers
 
-Datamation groups by the service provider and what they do best [@sp20-516-246-TopCloud].  
+### Datamation groups by the service provider and what they do best [@sp20-516-246-TopCloud].  
 
 1. **IBM** Watson:	Largest and most diverse set of AI services; established and mature program in Watson; IBM Global Services is unmatched in consulting.
 2. **Amazon** Web Services:	Rapidly maturing set of services based around its popular consumer products; runs on AWS, the top cloud service provider
@@ -75,7 +75,7 @@ Datamation groups by the service provider and what they do best [@sp20-516-246-T
 6. **Salesforce**:	Easy and rapid development of apps; adds AI to Salesforce’s comprehensive CRM offerings.
 7. **Baidu**:	Mirrors Google in terms of features and specialized accelerator chips.
 
-Appanion also compares the platform and strategy of AI services providers, and lists their strengths based on what is needed. <https://medium.com/appanion/machine-learning-as-a-service-the-top-cloud-platform-and-ai-vendors-2df45d51374d>
+### Appanion also compares the platform and strategy of AI services providers, and lists their strengths based on what is needed. <https://medium.com/appanion/machine-learning-as-a-service-the-top-cloud-platform-and-ai-vendors-2df45d51374d>
 
 1. **Google** Cloud Services: A flexible solution to start off with, with the opportunity to scale and use a vast number of highly mature machine learning tools.
 2. **Microsoft** Azure: Using Microsoft technology stack, integrate analytics solutions but still provide extensive AI and machine learning possibilities.
@@ -83,6 +83,10 @@ Appanion also compares the platform and strategy of AI services providers, and l
 4. **IBM** Watson: Provides a user-friendly interface with full control over the data flows and still cutting-edge capabilities in the fields of artificial intelligence.
 5. **Salesforce** AWS integrations: For companies that already use Salesforce already for enterprise apps or CRM and want to build applications around customer data.
 6. **SAP** Cloud Platform: For companies using SAP as the ERP system, Business Objects, etc. 
+
+### Pricing comparison
+
+
 
 ## Challenges to overcome in adopting AI in the cloud
 
