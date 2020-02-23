@@ -84,7 +84,7 @@ Cloud Academy groups a little differently in the next table [@sp20-516-246
 5. **Salesforce** AWS integrations: For companies that already use Salesforce already for enterprise apps or CRM and want to build applications around customer data.
 6. **SAP** Cloud Platform: For companies using SAP as the ERP system, Business Objects, etc. 
 
-### Cloud pricing comparison
+### Cloud price comparison
 
 HostingAdvice.com provides a simple comparion pricing of the top 3 cloud providers for small, medium and large enterprises [@sp20-516-246-pricing]. 
 
@@ -108,7 +108,7 @@ HostingAdvice.com provides a simple comparion pricing of the top 3 cloud provide
 
 AWS is generally is the provider of lowest costs based on this simple comparison.  The actual costs on cloud instances will depend on the instance types you choose, the regions you run in, whether you need local disk for your instances, and your use of discounts.  Cloud providers have calculators on their sites to calculate pricing based on your scenario and AI services you choose.
 
-## Challenges to overcome in adopting AI in the cloud
+## Challenges to overcome when adopting AI in the cloud
 
 Companies face numerous challenges when adopting AI in the cloud [@sp20-516-246-challenges].
 
