@@ -84,9 +84,19 @@ Cloud Academy groups a little differently in the next table [@sp20-516-246
 5. **Salesforce** AWS integrations: For companies that already use Salesforce already for enterprise apps or CRM and want to build applications around customer data.
 6. **SAP** Cloud Platform: For companies using SAP as the ERP system, Business Objects, etc. 
 
-### Pricing comparison
+### Cloud pricing comparison
 
+#### AWS vs. Azure vs. Google Cloud — For Beginners & Startups
 
+@fig:sp20-516-246-pricing-small.PNG shows cloud pricing for beginners & startups
+
+![For Beginners & Startups](images/pricing-small.PNG){#fig:sp20-516-246-pricing-small.PNG}
+
+#### AWS vs. Azure vs. Google Cloud — For Mid-Size Companies
+
+#### AWS vs. Azure vs. Google Cloud — For Enterprises
+
+HostingAdvice.com compares pricing of the top 3 cloud providers for small, medium and large enterprises.  
 
 ## Challenges to overcome in adopting AI in the cloud
 
