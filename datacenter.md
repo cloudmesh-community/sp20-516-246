@@ -21,15 +21,10 @@ Columbus, OH Electricity costs [@sp20-516-246-EnergyRates]
 Therefore, Cologix' COL3 electricity costs are approximately 18000 * 10.7 = $192,600 per hour at maximum capacity.   Expedient's smaller facility is 1750*10.7 = $18,725 per hour at maximum capacity.
 
 ## Personal carbon use based on calculator
-
-Personal carbon usage 50 tons CO2 eq/year, see image
-
-![](images/personalcarbon.PNG)
-
+Personal carbon usage estimated at 50 tons CO2 eq/year per the online calculator
 ## Use of renewable energy sources at data centers
 ### Wind as renewable energy
 Energy from the wind is transformed into electricity, often within wind farms, through the use of large blades attached to turbines on top of tall posts (> 100 ft tall) to capture air movement where it is faster.   
-
 ### Data centers that use wind renewable energy
 While there is increasing capacity from utilities providing wind sourced electricity, it's rare for a data site to have on-site wind generators.  The web site includes examples of the handful of working data centers that use on-site wind generation to provide power for their servers.
 
