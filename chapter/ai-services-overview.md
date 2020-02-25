@@ -43,7 +43,8 @@ approaches.
 AI as a service offerings make one or more of these types of artificial
 intelligence technologies available as a cloud service. According to
 Datamation, the AI as a service products on the market generally fall into
-the following categories [@sp20-516-246-AICloudBoost]:
+the following categories [@sp20-516-246-AICloudBoost], summarized in @fig
+:sp20-512-246-AICloudBoost.
 
 * **Bots and digital assistants**:For many people, the first thing that comes to
  mind when they hear the phrase "artificial intelligence" is a digital assistant like Apple's Siri, Microsoft's Cortana or Amazon's Alexa. These tools use natural language processing technology to carry on conversations with users, and many also use machine learning to improve their skills over time. Many enterprises want to add similar functionality to their products and websites. In fact, according to IDC, the AI use case that saw the most spending in 2017 was automated customer service agents. But creating your own bot from scratch is a monumental undertaking. As an alternative, several vendors offer bot platforms as a service. Organizations train the bots with their own data and then use them to answer simple questions, freeing up human customer service agents for more complicated tasks.
@@ -56,12 +57,12 @@ the following categories [@sp20-516-246-AICloudBoost]:
  
 The "holy grail" of AI as a service would be to create a general artificial intelligence that could be accessed as a cloud service. A general artificial intelligence is a computer system that can think and communicate in all the same ways that humans can. Most experts believe that researchers are still many years away from creating general AI, if they will ever be able to do so at all.
 
-![Figure AI Service Vendors [@sp20-512-246-AICloudBoost]](images/aiservicevendors.PNG){#fig:sp20-512-246-aiservicevendors.PNG width=5in}
+![Figure AI Service Vendors [@sp20-512-246-AICloudBoost]](images/aiservicevendors.PNG){#fig:sp20-512-246-AICloudBoost width=5in}
 
-Cloud Academy groups a little differently in the next table [@sp20-516-246
--AIServ]
+Cloud Academy groups a little differently as shown in @fig:sp20-516-246-AIServ
+ [@sp20-516-246-AIServ].
 
-![Figure AI Services Groupings [@sp20-516-246-AIServ]](images/aiservicevendors2.PNG){#fig:aiservicevendors2.PNG width=5in}
+![Figure AI Services Groupings [@sp20-516-246-AIServ]](images/aiservicevendors2.PNG){#fig:sp20-516-246-AIServ width=5in}
 
 ## Choosing cloud based AI services and providers
 ### Datamation groups by the service provider and what they do best [@sp20-516-246-TopCloud].  
