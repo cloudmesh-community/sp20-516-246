@@ -64,9 +64,7 @@ Cloud Academy groups a little differently in the next table [@sp20-516-246
 ![Figure AI Services Groupings [@sp20-516-246-AIServ]](images/aiservicevendors2.PNG){#fig:aiservicevendors2.PNG width=5in}
 
 ## Choosing cloud based AI services and providers
-
 ### Datamation groups by the service provider and what they do best [@sp20-516-246-TopCloud].  
-
 1. **IBM** Watson:	Largest and most diverse set of AI services; established and mature program in Watson; IBM Global Services is unmatched in consulting.
 2. **Amazon** Web Services:	Rapidly maturing set of services based around its popular consumer products; runs on AWS, the top cloud service provider
 3. **Microsoft** Azure:	Built on Microsoft legacy software; Microsoft’s strong history supporting developers
