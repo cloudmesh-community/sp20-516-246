@@ -2,11 +2,14 @@
 
 ## Why AI in the cloud
 
-You don’t need to use a cloud provider to build a machine learning solution. After all, there are plenty of open source machine learning frameworks, such as TensorFlow, MXNet, and CNTK that companies can run on their own hardware. However, companies building sophisticated machine learning models in-house are likely to run into issues scaling their workloads, because training real-world models typically requires large compute clusters.
+A cloud provider is not necessary to build a machine learning solution
+.  There are open source machine learning frameworks, such as
+ TensorFlow, MXNet, and CNTK that companies can run on their own hardware
+ . However, companies may run into issues scaling their workloads.  Also
+ , there are barriers to entry for bringing machine learning capabilities to
+  enterprise applications. The specialized skills required to build, train, and deploy machine learning models and the computational and special-purpose hardware requirements add up to higher costs for labor, development, and infrastructure.
 
-The barriers to entry for bringing machine learning capabilities to enterprise applications are high on many fronts. The specialized skills required to build, train, and deploy machine learning models and the computational and special-purpose hardware requirements add up to higher costs for labor, development, and infrastructure.
-
-These are problems that cloud computing can solve and the leading public
+Cloud computing can solve both issues and the leading public
 cloud platforms are on a mission to make it easier for companies to leverage
 machine learning capabilities to solve business problems without the full
 tech burden [@sp20-516-246-AIServ].
@@ -23,8 +26,8 @@ challenges. In a recent survey, 91 percent of respondents anticipated
 barriers to AI adoption. More specifically, 40 percent didn't believe they
 had the right infrastructure to support AI [@sp20-516-246-AICloudBoost]. 
 
-Utilizing cloud AI services offers a number of benefits [@sp20-516-246-AICloudBoost]:
-
+According to Datamation, utilizing cloud AI services offers a number of
+ benefits [@sp20-516-246-AICloudBoost]:
 1. **Access to Advanced Compute Infrastructure** — Machine learning and neural networks require massive amounts of parallel processing power. To meet that need, AI applications must run on systems with advanced graphic processing units (GPUs). However, those systems can be very expensive — making them somewhat impractical for pilot projects. Using a cloud service allows enterprises to get the compute resources they need for AI initiatives while paying only for what they use. And if a pilot project doesn't pan out, they can easily shut it down without being saddled with expensive hardware they no longer need.
 
 2. **Scalability** — When enterprises experience success with their initial AI efforts, they often want to expand those projects. The cloud makes it easy to scale those projects up or down as demand warrants. And the cloud model makes it easy for companies to broaden the use of the technology to additional departments and business units within the organization.
