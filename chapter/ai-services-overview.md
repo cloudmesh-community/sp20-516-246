@@ -142,7 +142,7 @@ China is attracting bright talents to go back to the homeland after studying abr
 
 @fig:sp20-516-246-AI_resesarch_impact.png shows AI research impact by China and the U.S.
 
-![Research Impact](images/AI_resesarch_impact.png){#fig:sp20-516-246-AI_resesarch_impact.png}
+![Research Impact :o2: the citation is missing](images/AI_resesarch_impact.png){#fig:sp20-516-246-AI_resesarch_impact.png}
 
 China also has world-leading companies in computer vision, speech recognition and natural language processing.  But it is lagging behind the U.S. in core techonologies such as open-source platforms, e.g. Tensorflow and Caffe, made by U.S. industry and academia.  It is also behind in AI hardware such as semiconductor chips.  It can take China 5 to 10 years to catch up with the U.S. in fundamental research and technologies.  With its ambitions, strategy and investments, it will reach the goals [@sp20-516-246-china].
 
