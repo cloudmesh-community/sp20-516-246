@@ -1,23 +1,18 @@
 # AI Cloud Overview sp20-516-246 Rhonda Fischer and Sara Lam
 
 ## Why AI in the cloud
+A cloud provider is not necessary for building a machine learning solution
+.  There are open source machine learning frameworks, such as TensorFlow, MXNet, and CNTK that companies can run on their own hardware. However, companies may run into issues as they scale their workloads.  Also, there are barriers to entry for bringing machine learning capabilities to enterprise applications. The specialized skills required to build, train, and deploy machine learning models and the computational and special-purpose hardware requirements add up to higher costs for labor, development, and infrastructure.
 
-A cloud provider is not necessary to build a machine learning solution
-.  There are open source machine learning frameworks, such as
- TensorFlow, MXNet, and CNTK that companies can run on their own hardware
- . However, companies may run into issues scaling their workloads.  Also
- , there are barriers to entry for bringing machine learning capabilities to
-  enterprise applications. The specialized skills required to build, train, and deploy machine learning models and the computational and special-purpose hardware requirements add up to higher costs for labor, development, and infrastructure.
-
-Cloud computing can solve both issues and the leading public
-cloud platforms are on a mission to make it easier for companies to leverage
-machine learning capabilities to solve business problems without the full
-tech burden [@sp20-516-246-AIServ].
+Cloud computing can solve both startup and scaling issues and the leading public
+ cloud platforms are on a mission to make it easier for companies to leverage
+  machine learning capabilities to solve business problems without the full tech
+   burden [@sp20-516-246-AIServ].
 
 Apart from offering the APIs and infrastructure, cloud providers are
 competing to build tools for data scientists and developers. These tools are
-tightly integrated with the data platform and compute platform, which will
-indirectly drive the consumption of VMs, containers, storage, and
+tightly integrated with the data platform and compute platform, which
+indirectly drives the consumption of VMs, containers, storage, and
 databases [@sp20-516-246-AIRise].
 
 While enterprises are enthusiastic about the potential of AI, they also
@@ -43,11 +38,11 @@ Cloud AI services are growing; as a result the industry
 separates Cloud AI services into subcategories.  Following are several grouping
 approaches.
 
-AI as a service offerings make one or more of these types of artificial
+AI as a service makes one or more of these types of artificial
 intelligence technologies available as a cloud service. According to
-Datamation, the AI as a service products on the market generally fall into
-the following categories [@sp20-516-246-AICloudBoost], summarized in @fig
-:sp20-512-246-AICloudBoost.
+Datamation, AI as service products generally fall into
+the following categories within the market [@sp20-516-246-AICloudBoost
+], summarized in @fig:sp20-512-246-AICloudBoost.
 
 * **Bots and digital assistants**:For many people, the first thing that comes to
  mind when they hear the phrase "artificial intelligence" is a digital assistant like Apple's Siri, Microsoft's Cortana or Amazon's Alexa. These tools use natural language processing technology to carry on conversations with users, and many also use machine learning to improve their skills over time. Many enterprises want to add similar functionality to their products and websites. In fact, according to IDC, the AI use case that saw the most spending in 2017 was automated customer service agents. But creating your own bot from scratch is a monumental undertaking. As an alternative, several vendors offer bot platforms as a service. Organizations train the bots with their own data and then use them to answer simple questions, freeing up human customer service agents for more complicated tasks.
