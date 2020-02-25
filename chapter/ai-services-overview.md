@@ -56,12 +56,12 @@ the following categories [@sp20-516-246-AICloudBoost]:
  
 The "holy grail" of AI as a service would be to create a general artificial intelligence that could be accessed as a cloud service. A general artificial intelligence is a computer system that can think and communicate in all the same ways that humans can. Most experts believe that researchers are still many years away from creating general AI, if they will ever be able to do so at all.
 
-![](images/aiservicevendors.PNG)
+![Figure AI Service Vendors [@sp20-512-246-AICloudBoost]](images/aiservicevendors.PNG){#fig:sp20-512-246-aiservicevendors.PNG width=5in}
 
 Cloud Academy groups a little differently in the next table [@sp20-516-246
 -AIServ]
 
-![](images/aiservicevendors2.PNG)
+![Figure AI Services Groupings [@sp20-516-246-AIServ]](images/aiservicevendors2.PNG){#fig:aiservicevendors2.PNG width=5in}
 
 ## Choosing cloud based AI services and providers
 
