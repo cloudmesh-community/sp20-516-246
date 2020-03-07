@@ -1,4 +1,13 @@
 # Notebook Rhonda Fischer sp20-516-246
+
+## Week 8 3/2/20 - 3/8/20
+* :+1: Wrote a file from master to worker pi using scp
+* :o2: Learning how to use functions in host.py to copy and setup Pis 
+
+## Week 7 2/24/20 - 3/1/20
+* :+1: Update OS on master and 4 Pis
+* :+1: Started researching Spark and setting up in Pi master
+
 ## Week 6 2/17/20 - 2/23/20
 * :+1: Met with Sara on Cloud AI Overview chapter
 * :+1: Completed setting up master and 4 worker Pis
