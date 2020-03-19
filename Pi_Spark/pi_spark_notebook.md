@@ -1,10 +1,12 @@
 # Pi Spark Notebook by Rhonda Fischer sp20-5-6-246
-##Burning worker Pi cards
+## Burning worker Pi cards
 From Pi Master (yellow-001) changed to superuser
+
     sudo su
     # source /home/pi/ENV3/bin/activate
 
 Used the cm-pi-burn command to burn the worker cards
+
     cm-pi-burn create \
     --image=2020-02-13-raspbian-buster-lite  \
     --device=/dev/sda \
@@ -15,7 +17,7 @@ Used the cm-pi-burn command to burn the worker cards
     --format
  Repeated for yellow-003, yellow-004 and yellow-005
  
- ##Setting up master and workers for Spark
+ ## Setting up master and workers for Spark
  This will need to be setup in host.py
  Line commands to install Java and Scala prior to Spark
  
