@@ -1,13 +1,18 @@
 # Notebook Rhonda Fischer sp20-516-246
 
+## Week 10 3/16/20 - 3/22/20
+* :+1: Using updated cm_pi_burn, re-burned worker cards, trouble shooting as
+ unable to ssh to workers 
+* :+1: Moving Spark notes to notebook.md in Pi_Spark folder
+## Week 9 3/9/20 - 3/15/20
+* :+1: Ordered cables to connect Pis to hub
+* :+1: Continued to use ssh to connect to Pis and test Spark setups
 ## Week 8 3/2/20 - 3/8/20
 * :+1: Wrote a file from master to worker pi using scp
 * :o2: Learning how to use functions in host.py to copy and setup Pis 
-
 ## Week 7 2/24/20 - 3/1/20
 * :+1: Update OS on master and 4 Pis
 * :+1: Started researching Spark and setting up in Pi master
-
 ## Week 6 2/17/20 - 2/23/20
 * :+1: Met with Sara on Cloud AI Overview chapter
 * :+1: Completed setting up master and 4 worker Pis
@@ -15,8 +20,6 @@
  catch her up with Pi project
 * :+1: Learning how to connect cluster to larger network, reviewing draft
  outline from professor
-
-
 ## Week 5 2/10/20 - 2/16/20
 * :+1: Continued researching Cloud AI Overview chapter
 * :+1: Chapter bibtex started
