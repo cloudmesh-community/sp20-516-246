@@ -1,4 +1,4 @@
-# Pi Spark Notebook by Rhonda Fischer sp20-5-6-246
+# Pi Spark Notebook by Rhonda Fischer sp20-516-246
 ## Burning worker Pi cards
 From Pi Master (yellow-001) changed to superuser
 
