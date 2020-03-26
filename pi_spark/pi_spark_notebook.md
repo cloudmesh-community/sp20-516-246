@@ -18,7 +18,38 @@ Used the cm-pi-burn command to burn the worker cards
  Repeated for yellow-003, yellow-004 and yellow-005, using 169.254.10.11[3-5
  ] for the IP addresses
  
+ ## Prerequesits
+ 
+ In order for us to use cloudmesh-spark, you will need first to set up some
+  programs on your master. This includes adding spark and adding some
+   variables to your bashrc so they are available via the terminal
+   
+ First you will need to get outr gode. 
+ 
+ ```bash
+ git clone https://github.com/cloudmesh-community/sp20-516-246.git
+cd pi_spark
+ ```
+
+Now say 
+
+```bash
+sh ./bin/spark-setup.sh
+sh ./bin/sparc-bashrc.sh
+```
+
+
+figure out how to set it up in the clients
+you can use spark comamnds available to you here ...
+
+DO NOT LOGIN INTO THE CLIENTS, 
+INSTEAD DEVELOP bin scripts you run on the master
+
+
+you can use cms host scp/put/get/ssh ... 
+ 
  ## Setting up master and workers for Spark
+ 
  This will need to be setup in host.py
  Line commands to install Java and Scala prior to Spark
  
@@ -69,3 +100,6 @@ scala>
 
 scala> :q
 (ENV3) pi@yellow-001:~ $
+
+### Setting up keys
+
