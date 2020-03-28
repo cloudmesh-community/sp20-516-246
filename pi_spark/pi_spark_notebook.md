@@ -74,21 +74,78 @@ Successfully installed nmap-0.0.1
  ## Setting up master and workers for Spark
  
  This will need to be setup in host.py
- Line commands to install Java and Scala prior to Spark
  
-    $sudo apt-get install openjdk-8-jre
-    $sudo apt-get install scala
-    $sudo wget http://apache.osuosl.org/spark/spark-2.3.4/spark-2.3.4-bin-hadoop2.7.tgz -O sparkout2-3-4.tgz
-    $sudo tar -xzf sparkout2-3-4.tgz 
+ spark-setup.sh
+ 
+ ```bash
+#!/usr/bin/env bash
+sudo apt-get install openjdk-8-jre
+sudo apt-get install scala
+cd /usr/local/spark
+sudo wget http://apache.osuosl.org/spark/spark-2.3.4/spark-2.3.4-bin-hadoop2.7.tgz -O sparkout2-3-4.tgz
+sudo tar -xzf sparkout2-3-4.tgz
+```
 
-Additions made to file:  /home/pi/.bashrc
+ spark-bashrc.sh
+ 
+ ```bash
+#!/usr/bin/env bash
+cat >> bashrc << EOF
+#SCALA_HOME
+export SCALA_HOME=/usr/share/scala
+export PATH=$PATH:$SCALA_HOME/bin
+#SPARK_HOME
+export SPARK_HOME=/usr/local/spark/spark
+export PATH=$PATH:$SPARK_HOME/bin
+EOF
+```
 
-    #SCALA_HOME                          
-    export SCALA_HOME=/usr/share/scala                      
-    export PATH=$PATH:$SCALA_HOME/bin                                              
-    #SPARK_HOME                                                                    
-    export SPARK_HOME=/usr/local/spark/spark
-    export PATH=$PATH:$SPARK_HOME/bin
+ spark-env.sh.setup.sh
+ 
+ ```bash
+#!/usr/bin/env bash
+cat >> /usr/local/spark/spark/conf/spark-env.sh << EOF
+#JAVA_HOME
+export JAVA_HOME=/usr/lib/jvm/java-8-openjdk-armhf/
+EOF
+```
+spark-save-master.sh
+ 
+ ```bash
+#!/usr/bin/env bash
+cd /usr/share/scala-2.11
+sudo tar -cvzf scalaout2-11.tar.gz *
+cd /usr/lib/jvm/java-8-openjdk-armhf
+sudo tar -cvzf javaout8.tgz *
+cd /usr/local/spark/spark
+sudo tar -cvzf sparkout.2-3-4.tgz *
+```
+spark-scp-files-to-worker.sh
+ 
+ ```bash
+#!/usr/bin/env bash
+scp -r $SCALA_HOME/scalaout2-11.tar.gz pi@yellow-002
+scp -r /usr/lib/jvm/java-8-openjdk-armhf/javaout8.tgz pi@yellow-002:
+scp -r /usr/local/spark/spark/sparkout.2-3-4.tgz pi@yellow-002
+```
+spark-setup-worker.sh
+
+ ```bash
+#!/usr/bin/env bash
+cd /usr/lib
+sudo mkdir jvm
+sudo mkdir java-8-openjdk-armhf
+sudo mv ~/javaout8.tgz /usr/lib/jvm/java-8-openjdk-armhf/
+cd /usr/lib/jvm/java-8-openjdk-armhf
+sudo tar -xvzf javaout8.tgz
+cd /usr/share
+sudo mkdir /usr/share/scala-2.11
+sudo mv ~/scalaout2-11.tar.gz /usr/share/scala-2.11/
+cd /usr/share/scala-2.11
+sudo tar -xvzf scalaout2-11.tar.gz
+```
+
+
 
 ## Starting Spark
 
@@ -125,4 +182,14 @@ $SPARK_HOME/sbin/stop-master.sh
 $SPARK_HOME/sbin/stop-slaves.sh
 ```
 ### Setting up keys
+
+In order to get passwordless access to workers from master:
+
+spark-ssh-setup.sh
+```bash
+#!/usr/bin/env bash
+eval $(ssh-agent)
+ssh-add
+```
+
 
