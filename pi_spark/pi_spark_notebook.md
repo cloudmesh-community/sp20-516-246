@@ -134,6 +134,7 @@ spark-setup-worker.sh
 #!/usr/bin/env bash
 cd /usr/lib
 sudo mkdir jvm
+cd jvm
 sudo mkdir java-8-openjdk-armhf
 sudo mv ~/javaout8.tgz /usr/lib/jvm/java-8-openjdk-armhf/
 cd /usr/lib/jvm/java-8-openjdk-armhf
