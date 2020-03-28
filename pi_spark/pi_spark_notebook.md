@@ -50,7 +50,7 @@ sh ./bin/spark-save-master.sh
 
 To setup one worker (pi@yellow-002).  First copy the zipped files from the
  master to the worker (zip files saved in
- spark-same-master.sh) . 
+ spark-save-master.sh) . 
 
 ```bash
 sh ./bin/spark-scp-files-to-worker.sh
