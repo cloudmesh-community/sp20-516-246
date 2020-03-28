@@ -1,11 +1,11 @@
 # Pi Spark Notebook by Rhonda Fischer sp20-516-246
 ## Burning worker Pi cards
-From Pi Master (yellow-001) changed to superuser
+From Pi Master (yellow) change to superuser and activate ENV3
 
     sudo su
     # source /home/pi/ENV3/bin/activate
 
-Used the cm-pi-burn command to burn the worker cards
+Use the cm-pi-burn command to burn the worker cards
 
     cm-pi-burn create \
     --image=2020-02-13-raspbian-buster-lite  \
@@ -15,38 +15,61 @@ Used the cm-pi-burn command to burn the worker cards
     --sshkey=/home/pi/.ssh/id_rsa.pub \
     --blocksize=4M \
     --format
- Repeated for yellow-003, yellow-004 and yellow-005, using 169.254.10.11[3-5
+ Repeated for yellow-003, yellow-004 using 169.254.10.11[3-4
  ] for the IP addresses
  
- ## Prerequesits
+ ## Prerequisites for Spark
  
- In order for us to use cloudmesh-spark, you will need first to set up some
-  programs on your master. This includes adding spark and adding some
-   variables to your bashrc so they are available via the terminal
+ In order for us to use cloudmesh-spark, we need first to set up the Pi master
+ . This includes installing Java, Scala and Spark and adding variables to
+  /.bashrc so
+  they are available via the terminal
    
- First you will need to get outr gode. 
+ Shell script files show the steps for setting up the master 
  
  ```bash
  git clone https://github.com/cloudmesh-community/sp20-516-246.git
 cd pi_spark
  ```
 
-Now say 
+First, install the necessary software (Java, Scala, Spark) with spark-setup.sh
+.  Second, update /home/pi/.bashrc with spark-basrc.sh.   Then, update spark-env.sh in the spark/conf directory.
 
 ```bash
 sh ./bin/spark-setup.sh
-sh ./bin/sparc-bashrc.sh
+sh ./bin/spark-bashrc.sh
+sh ./bin/spark-env.sh.setup.sh
+```
+Now, save the master's setup in files for copying to the workers.  Because
+ workers do not have wifi access, they
+  cannot load applications the same way as the master.
+
+```bash
+sh ./bin/spark-save-master.sh
 ```
 
+To setup one worker (pi@yellow-002).  First copy the zipped files from the
+ master to the worker (zip files saved in
+ spark-same-master.sh) . 
 
-figure out how to set it up in the clients
-you can use spark comamnds available to you here ...
+```bash
+sh ./bin/spark-scp-files-to-worker.sh
+```
+Then, ssh to the worker (ssh yellow-002), to complete the worker setup
 
-DO NOT LOGIN INTO THE CLIENTS, 
-INSTEAD DEVELOP bin scripts you run on the master
+```bash
+sh ./bin/spark-setup-worker.sh
+```
+ 
+Goal is to not login to workers; however, current process requires ssh to
+ worker from master to finalize worker setup
+ 
+Goal is to INSTEAD DEVELOP bin scripts that run on the master
 
-
-you can use cms host scp/put/get/ssh ... 
+Note: nmap is suggested by one of the sites for managing clusters.  Installed
+ but haven't used it. 
+  (ENV3) pi@yellow:~ $ pip install nmap
+Successfully installed nmap-0.0.1
  
  ## Setting up master and workers for Spark
  
@@ -69,37 +92,37 @@ Additions made to file:  /home/pi/.bashrc
 
 ## Starting Spark
 
-(ENV3) pi@yellow-001:~ $ spark-shell
+Within the Master's spark directory and conf folder is a slaves file indicating
+ the workers
+```lines
+sudo nano /usr/local/spark/spark/conf/slaves
+```
 
-2020-03-19 17:48:59 WARN  Utils:66 - Your hostname, yellow-001 resolves to a loopback address: 127.0.1.1; using 192.168.1.111 instead (on interface wlan0)
 
-2020-03-19 17:48:59 WARN  Utils:66 - Set SPARK_LOCAL_IP if you need to bind to another address
+add following lines to slaves file:
 
-2020-03-19 17:49:01 WARN  NativeCodeLoader:62 - Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+```lines
+localhost
+yellow-002
+```
 
-Setting default log level to "WARN".
-To adjust logging level use sc.setLogLevel(newLevel). For SparkR, use setLogLevel(newLevel).
-Spark context Web UI available at http://192.168.1.111:4040
-Spark context available as 'sc' (master = local[*], app id = local-1584640159966).
-Spark session available as 'spark'.
-Welcome to
-      ____              __
-     / __/__  ___ _____/ /__
-    _\ \/ _ \/ _ `/ __/  '_/
-   /___/ .__/\_,_/_/ /_/\_\   version 2.3.4
-      /_/
+Start master and then slave from master command line
 
-Using Scala version 2.11.8 (OpenJDK Client VM, Java 1.8.0_212)
-Type in expressions to have them evaluated.
-Type :help for more information.
+```command lines
+$SPARK_HOME/sbin/start-master.sh
+$SPARK_HOME/sbin/start-slaves.sh
+```
 
-scala> 2+2
-res0: Int = 4
+Run a test script on the cluster
+```bash
+$ cd /usr/local/spark/spark/bin 
+$ run-example SparkPi 4 10
+``` 
 
-scala>
-
-scala> :q
-(ENV3) pi@yellow-001:~ $
-
+Then stop master and slave
+```bash
+$SPARK_HOME/sbin/stop-master.sh
+$SPARK_HOME/sbin/stop-slaves.sh
+```
 ### Setting up keys
 
