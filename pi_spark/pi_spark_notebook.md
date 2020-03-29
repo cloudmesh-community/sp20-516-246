@@ -28,6 +28,9 @@ Use the cm-pi-burn command to burn the worker cards
 | pi@yellow-003 | True    | yellow-003 |
 | pi@yellow-004 | True    | yellow-004 |
 +---------------+---------+------------+
+
+For full report:
+cms host ssh "pi@yellow-[001-004]" hostname --output=dict
  ```
  
  ## Prerequisites for Spark
