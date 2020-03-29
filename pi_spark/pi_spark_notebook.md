@@ -10,13 +10,25 @@ Use the cm-pi-burn command to burn the worker cards
     cm-pi-burn create \
     --image=2020-02-13-raspbian-buster-lite  \
     --device=/dev/sda \
-    --hostname=yellow-002 \
-    --ipaddr=169.254.10.112 \
+    --hostname=yellow-001 \
+    --ipaddr=169.254.10.111 \
     --sshkey=/home/pi/.ssh/id_rsa.pub \
     --blocksize=4M \
     --format
- Repeated for yellow-003, yellow-004 using 169.254.10.11[3-4
+ Repeated for yellow-002, yellow-003, yellow-004 using 169.254.10.11[1-4
  ] for the IP addresses
+ 
+  ```bash
+ (ENV3) pi@yellow:~ $ cms host ssh "pi@yellow-[001-004]" hostname
++---------------+---------+------------+
+| host          | success | stdout     |
++---------------+---------+------------+
+| pi@yellow-001 | True    | yellow-001 |
+| pi@yellow-002 | True    | yellow-002 |
+| pi@yellow-003 | True    | yellow-003 |
+| pi@yellow-004 | True    | yellow-004 |
++---------------+---------+------------+
+ ```
  
  ## Prerequisites for Spark
  
