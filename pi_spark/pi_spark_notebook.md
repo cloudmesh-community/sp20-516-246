@@ -49,22 +49,24 @@ sh ./bin/spark-save-master.sh
 ```
 
 To setup one worker (pi@yellow-002).  First copy the zipped files from the
- master to the worker (zip files saved in
- spark-save-master.sh) . 
+ master to the worker (zip files are saved in the
+ spark-save-master.sh process) .  A shell file is also copied that will move the
+  setup files to
+  the right locations and unzip them.
 
 ```bash
 sh ./bin/spark-scp-files-to-worker.sh
 ```
-Then, ssh to the worker (ssh yellow-002), to complete the worker setup
+Execute the shell program on the worker remotely from the master through an
+ ssh command. 
+  
 
 ```bash
-sh ./bin/spark-setup-worker.sh
+ssh yellow.002 sh ~/spark-setup-worker.sh
 ```
  
-Goal is to not login to workers; however, current process requires ssh to
- worker from master to finalize worker setup
- 
-Goal is to INSTEAD DEVELOP bin scripts that run on the master
+Goal is to not login to workers but execute from master with python and cms
+.  These shell programs will be put into python program for including in cms.
 
 Note: nmap is suggested by one of the sites for managing clusters.  Installed
  but haven't used it. 
@@ -127,6 +129,7 @@ spark-scp-files-to-worker.sh
 scp -r $SCALA_HOME/scalaout2-11.tar.gz pi@yellow-002:
 scp -r /usr/lib/jvm/java-8-openjdk-armhf/javaout8.tgz pi@yellow-002:
 scp -r /usr/local/spark/spark/sparkout.2-3-4.tgz pi@yellow-002:
+scp -r ~/spark-setup-worker.sh pi@yellow-002:
 ```
 spark-setup-worker.sh
 
