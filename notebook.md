@@ -1,5 +1,13 @@
 # Notebook Rhonda Fischer sp20-516-246
+## Week 13 4/6/20 - 4/12/20
+* :+1: TBD
 
+## Week 12 3/31/20 - 4/5/20
+* :+1: Using updated cm_pi_burn, re-burned worker cards, trouble shooting 
+* :+1: Spent couple of hours with Prof Gregor in understanding cms setup and
+ ensuring pi setup correctly
+## Week 11 3/23/20 - 3/30/20
+* :+1: Created shell programs to setup Spark on masters and workers
 ## Week 10 3/16/20 - 3/22/20
 * :+1: Using updated cm_pi_burn, re-burned worker cards, trouble shooting as
  unable to ssh to workers 
