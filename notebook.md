@@ -1,7 +1,13 @@
 # Notebook Rhonda Fischer sp20-516-246
-## Week 13 4/6/20 - 4/12/20
-* :o2: TBD
 
+## Week 14 4/13/20 - 4/19/20
+* :o2: TBD
+ 
+## Week 13 4/6/20 - 4/12/20
+* :+1: Met with Prof Gregor
+* :+1: updated cms system, used new cms burn create command to burn workers
+* :+1: Used new bridge command to enable workers to access wifi from master
+ 
 ## Week 12 3/31/20 - 4/5/20
 * :+1: Using updated cm_pi_burn, re-burned worker cards, trouble shooting 
 * :+1: Learning the new pi cluster script structure, specifically the Spark
