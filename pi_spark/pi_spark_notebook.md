@@ -52,6 +52,8 @@ cms host ssh "pi@yellow-[001-004]" hostname --output=dict
 cd pi_spark
  ```
 
+## Setup the Master
+
 First, install the necessary software on the Master (Java, Scala, Spark) with
  spark-setup.sh
 .  Second, update /home/pi/.bashrc with spark-basrc.sh.   Then, update spark-env.sh in the spark/conf directory.
@@ -99,7 +101,7 @@ Successfully installed nmap-0.0.1
  setup, start, stop, 
  test, check
  
- 
+ ## Setup the Worker (an example)
  **Following are actual steps used in setting up worker yellow-001**
  
     (ENV3) pi@yellow:~ $ sudo nano /bin/spark-scp-files-to-worker.sh 
@@ -130,7 +132,9 @@ After running above, all the needed files are on the worker, but they aren't
 Then, yellow-001 was added to the following file on the master
 
     sudo nano /usr/local/spark/spark/conf/slaves
-    
+ 
+ ## Test the Master & Worker setup with a Spark test
+ 
 Followed by the Spark test run
     
     #Start Spark cluster
@@ -157,7 +161,9 @@ Stopping Spark cluster
     stopping org.apache.spark.deploy.master.Master
     
     
- Following are the shell files
+## Following are the shell files.  
+
+See sp20-516-246/pi_spark/bin directory
  
  spark-setup.sh
  
