@@ -1,7 +1,9 @@
 # Notebook Rhonda Fischer sp20-516-246
 
 ## Week 14 4/13/20 - 4/19/20
-* :o2: TBD
+* :o2: Using cms host key create, gather and scatter
+* :o2: Setting up yellow-001 and yellow-004 using cms scripts
+* :+1: Updated cloudmesh-installer and re-installed pi bundle on laptop
  
 ## Week 13 4/6/20 - 4/12/20
 * :+1: Met with Prof Gregor

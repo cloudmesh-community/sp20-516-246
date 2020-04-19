@@ -19,4 +19,6 @@ cd /usr/local/spark/spark
 sudo mv ~/sparkout.2-3-4.tgz /usr/local/spark/spark/
 cd /usr/local/spark/spark
 sudo tar -xvzf sparkout.2-3-4.tgz
+sh ~/spark-env.sh.setup.sh
+sh ~/spark-bashrc.sh
 
