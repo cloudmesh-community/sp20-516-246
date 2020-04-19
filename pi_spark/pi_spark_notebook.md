@@ -37,6 +37,12 @@ Use the cm-pi-burn command to burn the worker cards
 For full report:
 cms host ssh "pi@yellow-[001-004]" hostname --output=dict
  ```
+ ## Setting up master and workers for Spark
+ 
+ This will need to be setup in cms pi spark using commands below:
+ 
+ setup, start, stop, 
+ test, check
  
  ## Prerequisites for Spark
  
@@ -94,12 +100,6 @@ Note: nmap is suggested by one of the sites for managing clusters.  Installed
   (ENV3) pi@yellow:~ $ pip install nmap
 Successfully installed nmap-0.0.1
  
- ## Setting up master and workers for Spark
- 
- This will need to be setup in cms pi spark using commands below:
- 
- setup, start, stop, 
- test, check
  
  ## Setup the Worker (an example)
  **Following are actual steps used in setting up worker yellow-001**
