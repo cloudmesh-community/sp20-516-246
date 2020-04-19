@@ -94,7 +94,11 @@ Successfully installed nmap-0.0.1
  
  ## Setting up master and workers for Spark
  
- This will need to be setup in host.py
+ This will need to be setup in cms pi spark using commands below:
+ 
+ setup, start, stop, 
+ test, check
+ 
  
  **Following are actual steps used in setting up worker yellow-001**
  
