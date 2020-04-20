@@ -46,12 +46,12 @@ cms host ssh "pi@yellow-[001-004]" hostname --output=dict
  
  ## Prerequisites for Spark
  
- In order for us to use cloudmesh-spark, we need first to set up the Pi master
- . This includes installing Java, Scala and Spark and adding variables to
-  /.bashrc so
-  they are available via the terminal
+ In order to use cloudmesh-spark, we first set up the Pi master. This
+  includes installing Java, Scala and Spark and adding variables to /.bashrc
+   so they are available via the terminal
    
- Shell script files show the steps for setting up the master 
+ See the shell script files for setting up the master in the directory listed
+  below: 
  
  ```bash
  git clone https://github.com/cloudmesh-community/sp20-516-246.git
@@ -60,9 +60,9 @@ cd pi_spark
 
 ## Setup the Master
 
-First, install the necessary software on the Master (Java, Scala, Spark) with
- spark-setup.sh
-.  Second, update /home/pi/.bashrc with spark-basrc.sh.   Then, update spark-env.sh in the spark/conf directory.
+First, install the necessary software on the Master (Java, Scala, Spark), see
+ spark-setup.sh.  Second, update /home/pi/.bashrc, see spark-bashrc.sh.   Then
+ , update spark-env.sh in the spark/conf directory.
 
 ```bash
 sh ./bin/spark-setup.sh
@@ -70,21 +70,20 @@ sh ./bin/spark-bashrc.sh
 sh ./bin/spark-env.sh.setup.sh
 ```
 To ensure workers are setup the same as the master, the master's setup is
- zipped and copied to each worker.
+ zipped in order to copy to each worker.
 
 ```bash
 sh ./bin/spark-save-master.sh
 ```
 
-In setting up a worker (for example, pi@yellow-002), the master's zipped
- directories of the necessary files are copied to the worker and then a
-  command from the master executes a shell file that sets up the worker. 
+The zipped directory files are copied to the worker 
 
-Shell file as the scp commands to copy the necessary files to worker
 ```bash
 sh ./bin/spark-scp-files-to-worker.sh
 ```
-Using an ssh command on the master, executes a shell program (spark-setup
+A shell file executed from the master finishes
+ the worker set up. An ssh command on the master, executes a
+  shell program (spark-setup
 -worker.sh) on the
  worker (yellow-002) 
  remotely. 
@@ -104,6 +103,13 @@ Successfully installed nmap-0.0.1
  ## Setup the Worker (an example)
  **Following are actual steps used in setting up worker yellow-001**
  
+ Copy or create the batch files from the sp20-516-246/pi_spark/bin directory or
+  see shell scripts at the end of this notebook below
+ 
+    (ENV3) pi@yellow:~ $ sudo nano ~/spark-setup-worker.sh
+    (ENV3) pi@yellow:/bin $ sudo nano spark-bashrc.sh  
+    (ENV3) pi@yellow:/bin $ sudo nano spark-env-sh-setup.sh 
+    
     (ENV3) pi@yellow:~ $ sudo nano /bin/spark-scp-files-to-worker.sh 
 
     #!/usr/bin/env bash
@@ -114,17 +120,14 @@ Successfully installed nmap-0.0.1
     scp -r ~/spark-env.sh.setup.sh pi@yellow-001:
     scp -r ~/spark-bashrc.sh pi@yellow-001:
     
-    #See below for spark-setup-worker.sh 
-    (ENV3) pi@yellow:~ $ sudo nano ~/spark-setup-worker.sh
-    (ENV3) pi@yellow:/bin $ sudo nano spark-bashrc.sh  
-    (ENV3) pi@yellow:/bin $ sudo nano spark-env-sh-setup.sh 
-    
     #This executes the secure copy (scp) steps above
     (ENV3) pi@yellow:~ $ sh /bin/spark-scp-files-to-worker.sh
 
 
 After running above, all the needed files are on the worker, but they aren't
- in the right locations.   Therefore, need to run the following command from
+ in the right file or directory locations.   Therefore, need to run the
+  following
+  command from
   the master to start the shell scripts on the worker (yellow-001) 
  
     ssh yellow-001 sh ~/spark-setup-worker.sh
@@ -252,7 +255,6 @@ sh ~/spark-bashrc.sh
 ```
 
 
-
 ## Starting Spark
 
 Within the Master's spark directory and conf folder is a slaves file indicating
@@ -265,7 +267,10 @@ add following lines to slaves file:
 
 ```lines
 localhost
+yellow-001
 yellow-002
+yellow-003
+yellow-004
 ```
 
 Start master and then slave from master command line
