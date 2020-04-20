@@ -1,8 +1,14 @@
 # Notebook Rhonda Fischer sp20-516-246
 
+## Week 15 4/20/20 - 4/26/20
+* :o2: Using cms host key create, gather and scatter
+* :o2: Convert shell programs into cms pi spark code
+
 ## Week 14 4/13/20 - 4/19/20
 * :o2: Using cms host key create, gather and scatter
-* :o2: Setting up yellow-001 and yellow-004 using cms scripts
+* :+1: Successfully ran a Spark test program using a master and 4 worker cluster
+* :+1: Set up yellow-001 and yellow-004 using cms scripts along with updated
+ shell programs
 * :+1: Updated cloudmesh-installer and re-installed pi bundle on laptop
  
 ## Week 13 4/6/20 - 4/12/20
