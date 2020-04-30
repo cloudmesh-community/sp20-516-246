@@ -1,8 +1,13 @@
 # Notebook Rhonda Fischer sp20-516-246
 
+## Week 16 4/27/20 - 5/3/20
+* :o2: Integrating shell programs into spark.py
+* :+1: Updated shell programs to use with new cluster setup, including
+ upgrading Spark to 2.4.5
+
 ## Week 15 4/20/20 - 4/26/20
-* :o2: Using cms host key create, gather and scatter
-* :o2: Convert shell programs into cms pi spark code
+* :+1: Re-burned master as workers using green hostnames
+* :+1: Tested cms pi burn and bridge commands
 
 ## Week 14 4/13/20 - 4/19/20
 * :o2: Using cms host key create, gather and scatter
