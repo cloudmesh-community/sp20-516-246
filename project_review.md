@@ -4,12 +4,10 @@
 
 1. Spark Cluster Documentation:
 
-    <https://github.com/cloudmesh/cloudmesh-pi-cluster/blob/master/cloudmesh
-/cluster/spark/README.md>
+    <https://github.com/cloudmesh/cloudmesh-pi-cluster/blob/master/cloudmesh/cluster/spark/README.md>
 
 2. Spark Cluster Pi Code (work in progress): <https://github.com/cloudmesh
-/cloudmesh-pi
--cluster/blob/master/cloudmesh/cluster/spark/spark.py>
+/cloudmesh-pi-cluster/blob/master/cloudmesh/cluster/spark/spark.py>
 
     Receiving errors that it can't find cluster in order to import
      **Installer** 
@@ -39,5 +37,4 @@
     
 5. Deployment documentation in README.md link above in bullet 1
 6.  Class documents: AI Overview 
-<https://github.com/cloudmesh-community/sp20-516-246/blob/master/chapter/ai
--services-overview.md>
+<https://github.com/cloudmesh-community/sp20-516-246/blob/master/chapter/ai-services-overview.md>
