@@ -17,5 +17,14 @@ class Parrot:
 blu = Parrot("Blu", 10)
 
 # call our instance methods
-print(blu.sing("'GoGo'"))
+print(blu.sing("'Happy'"))
 print(blu.dance())
+
+class MyClass(object):
+    i = 123
+    def __init__(self):
+        self.i = 345
+
+a = MyClass()
+print(a.i)
+print(MyClass.i)
