@@ -6,8 +6,7 @@
 
     <https://github.com/cloudmesh/cloudmesh-pi-cluster/blob/master/cloudmesh/cluster/spark/README.md>
 
-2. Spark Cluster Pi Code (work in progress): <https://github.com/cloudmesh
-/cloudmesh-pi-cluster/blob/master/cloudmesh/cluster/spark/spark.py>
+2. Spark Cluster Pi Code (work in progress): <https://github.com/cloudmesh/cloudmesh-pi-cluster/blob/master/cloudmesh/cluster/spark/spark.py>
 
     Receiving errors that it can't find cluster in order to import
      **Installer** 
