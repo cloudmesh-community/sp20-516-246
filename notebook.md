@@ -1,7 +1,11 @@
 # Notebook Rhonda Fischer sp20-516-246
 
+## Week 17 5/4/20 - 5/9/20
+* :+1: Integrated shell programs into spark.py
+* :+1: Finalized and submitted documentation
+
 ## Week 16 4/27/20 - 5/3/20
-* :o2: Integrating shell programs into spark.py
+* :+1: Integrating shell programs into spark.py
 * :+1: Updated shell programs to use with new cluster setup, including
  upgrading Spark to 2.4.5
 
