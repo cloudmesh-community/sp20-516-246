@@ -1,5 +1,38 @@
 # Notebook Rhonda Fischer sp20-516-246
 
+## Week 17 5/4/20 - 5/9/20
+* :+1: Integrated shell programs into spark.py
+* :+1: Finalized and submitted documentation
+
+## Week 16 4/27/20 - 5/3/20
+* :+1: Integrating shell programs into spark.py
+* :+1: Updated shell programs to use with new cluster setup, including
+ upgrading Spark to 2.4.5
+
+## Week 15 4/20/20 - 4/26/20
+* :+1: Re-burned master as workers using green hostnames
+* :+1: Tested cms pi burn and bridge commands
+
+## Week 14 4/13/20 - 4/19/20
+* :o2: Using cms host key create, gather and scatter
+* :+1: Successfully ran a Spark test program using a master and 4 worker cluster
+* :+1: Set up yellow-001 and yellow-004 using cms scripts along with updated
+ shell programs
+* :+1: Updated cloudmesh-installer and re-installed pi bundle on laptop
+ 
+## Week 13 4/6/20 - 4/12/20
+* :+1: Met with Prof Gregor
+* :+1: updated cms system, used new cms burn create command to burn workers
+* :+1: Used new bridge command to enable workers to access wifi from master
+ 
+## Week 12 3/31/20 - 4/5/20
+* :+1: Using updated cm_pi_burn, re-burned worker cards, trouble shooting 
+* :+1: Learning the new pi cluster script structure, specifically the Spark
+ setup using tbe batch information collected previous week
+ :+1: Spent couple of hours with Prof Gregor in understanding cms setup and
+ ensuring pi setup correctly
+## Week 11 3/23/20 - 3/30/20
+* :+1: Created shell programs to setup Spark on masters and workers
 ## Week 10 3/16/20 - 3/22/20
 * :+1: Using updated cm_pi_burn, re-burned worker cards, trouble shooting as
  unable to ssh to workers 

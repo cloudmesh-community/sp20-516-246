@@ -7,16 +7,21 @@ From Pi Master (yellow) change to superuser and activate ENV3
 
 Use the cm-pi-burn command to burn the worker cards
 
-    cm-pi-burn create \
-    --image=2020-02-13-raspbian-buster-lite  \
-    --device=/dev/sda \
+    cms burn create \
     --hostname=yellow-001 \
-    --ipaddr=169.254.10.111 \
-    --sshkey=/home/pi/.ssh/id_rsa.pub \
-    --blocksize=4M \
-    --format
+    --ipaddr=169.254.10.111
+ 
  Repeated for yellow-002, yellow-003, yellow-004 using 169.254.10.11[1-4
- ] for the IP addresses
+ ] for the IP addresses.  
+ 
+ Then, applied cms bridge command to enable workers
+  to access wifi through the master.   Not needed for Spark, but useful for
+   other setups.
+ 
+    cms bridge create yellow,yellow-[001-004] --interface='wlan0'
+    cms bridge restart yellow,yellow-[001-004]
+ 
+ Appling the cms host command shows connections from the master
  
   ```bash
  (ENV3) pi@yellow:~ $ cms host ssh "pi@yellow-[001-004]" hostname
@@ -32,65 +37,136 @@ Use the cm-pi-burn command to burn the worker cards
 For full report:
 cms host ssh "pi@yellow-[001-004]" hostname --output=dict
  ```
+ ## Setting up master and workers for Spark
+ 
+ This will need to be setup in cms pi spark using commands below:
+ 
+ setup, start, stop, 
+ test, check
  
  ## Prerequisites for Spark
  
- In order for us to use cloudmesh-spark, we need first to set up the Pi master
- . This includes installing Java, Scala and Spark and adding variables to
-  /.bashrc so
-  they are available via the terminal
+ In order to use cloudmesh-spark, we first set up the Pi master. This
+  includes installing Java, Scala and Spark and adding variables to /.bashrc
+   so they are available via the terminal
    
- Shell script files show the steps for setting up the master 
+ See the shell script files for setting up the master in the directory listed
+  below: 
  
  ```bash
  git clone https://github.com/cloudmesh-community/sp20-516-246.git
 cd pi_spark
  ```
 
-First, install the necessary software (Java, Scala, Spark) with spark-setup.sh
-.  Second, update /home/pi/.bashrc with spark-basrc.sh.   Then, update spark-env.sh in the spark/conf directory.
+## Setup the Master
+
+First, install the necessary software on the Master (Java, Scala, Spark), see
+ spark-setup.sh.  Second, update /home/pi/.bashrc, see spark-bashrc.sh.   Then
+ , update spark-env.sh in the spark/conf directory.
 
 ```bash
 sh ./bin/spark-setup.sh
 sh ./bin/spark-bashrc.sh
 sh ./bin/spark-env.sh.setup.sh
 ```
-Now, save the master's setup in files for copying to the workers.  Because
- workers do not have wifi access, they
-  cannot load applications the same way as the master.
+To ensure workers are setup the same as the master, the master's setup is
+ zipped in order to copy to each worker.
 
 ```bash
 sh ./bin/spark-save-master.sh
 ```
 
-To setup one worker (pi@yellow-002).  First copy the zipped files from the
- master to the worker (zip files are saved in the
- spark-save-master.sh process) .  A shell file is also copied that will move the
-  setup files to
-  the right locations and unzip them.
+The zipped directory files are copied to the worker 
 
 ```bash
 sh ./bin/spark-scp-files-to-worker.sh
 ```
-Execute the shell program on the worker remotely from the master through an
- ssh command. 
+A shell file executed from the master finishes
+ the worker set up. An ssh command on the master, executes a
+  shell program (spark-setup
+-worker.sh) on the
+ worker (yellow-002) 
+ remotely. 
   
-
 ```bash
-ssh yellow.002 sh ~/spark-setup-worker.sh
+ssh yellow-002 sh ~/spark-setup-worker.sh
 ```
- 
-Goal is to not login to workers but execute from master with python and cms
-.  These shell programs will be put into python program for including in cms.
+
+These shell programs will be put into python program for including in cms.
 
 Note: nmap is suggested by one of the sites for managing clusters.  Installed
  but haven't used it. 
   (ENV3) pi@yellow:~ $ pip install nmap
 Successfully installed nmap-0.0.1
  
- ## Setting up master and workers for Spark
  
- This will need to be setup in host.py
+ ## Setup the Worker (an example)
+ **Following are actual steps used in setting up worker yellow-001**
+ 
+ Copy or create the batch files from the sp20-516-246/pi_spark/bin directory or
+  see shell scripts at the end of this notebook below
+ 
+    (ENV3) pi@yellow:~ $ sudo nano ~/spark-setup-worker.sh
+    (ENV3) pi@yellow:/bin $ sudo nano spark-bashrc.sh  
+    (ENV3) pi@yellow:/bin $ sudo nano spark-env-sh-setup.sh 
+    
+    (ENV3) pi@yellow:~ $ sudo nano /bin/spark-scp-files-to-worker.sh 
+
+    #!/usr/bin/env bash
+    scp -r $SCALA_HOME/scalaout2-11.tar.gz pi@yellow-001:
+    scp -r /usr/lib/jvm/java-8-openjdk-armhf/javaout8.tgz pi@yellow-001:
+    scp -r /usr/local/spark/spark/sparkout.2-3-4.tgz pi@yellow-001:
+    scp -r ~/spark-setup-worker.sh pi@yellow-001:
+    scp -r ~/spark-env.sh.setup.sh pi@yellow-001:
+    scp -r ~/spark-bashrc.sh pi@yellow-001:
+    
+    #This executes the secure copy (scp) steps above
+    (ENV3) pi@yellow:~ $ sh /bin/spark-scp-files-to-worker.sh
+
+
+After running above, all the needed files are on the worker, but they aren't
+ in the right file or directory locations.   Therefore, need to run the
+  following
+  command from
+  the master to start the shell scripts on the worker (yellow-001) 
+ 
+    ssh yellow-001 sh ~/spark-setup-worker.sh
+   
+Then, yellow-001 was added to the following file on the master
+
+    sudo nano /usr/local/spark/spark/conf/slaves
+ 
+ ## Test the Master & Worker setup with a Spark test
+ 
+Followed by the Spark test run
+    
+    #Start Spark cluster
+    (ENV3) pi@yellow:~ $ /usr/local/spark/spark/sbin/start-all.sh 
+    
+    #Run the Spark test script   
+    (ENV3) pi@yellow:~ $ /usr/local/spark/spark/bin/run-example SparkPi 4 10  
+    
+ Output of Spark test script included:
+ 
+    2020-04-19 22:22:21 INFO  DAGScheduler:54 - Job 0 finished: reduce at
+    SparkPi.scala:38, took 2.315185 s
+    Pi is roughly 3.142117855294638    
+    
+Stopping Spark cluster
+
+    (ENV3) pi@yellow:~ $ /usr/local/spark/spark/sbin/stop-all.sh
+    
+    pi@localhost's password: 
+    yellow-001: stopping org.apache.spark.deploy.worker.Worker
+    yellow-003: stopping org.apache.spark.deploy.worker.Worker
+    yellow-002: stopping org.apache.spark.deploy.worker.Worker
+    localhost: stopping org.apache.spark.deploy.worker.Worker
+    stopping org.apache.spark.deploy.master.Master
+    
+    
+## Following are the shell files.  
+
+See sp20-516-246/pi_spark/bin directory
  
  spark-setup.sh
  
@@ -105,9 +181,11 @@ sudo tar -xzf sparkout2-3-4.tgz
 
  spark-bashrc.sh
  
+ cat ~/.bashrc
+ 
  ```bash
 #!/usr/bin/env bash
-cat >> bashrc << EOF
+cat >> ~/.bashrc << EOF
 #SCALA_HOME
 export SCALA_HOME=/usr/share/scala
 export PATH=$PATH:$SCALA_HOME/bin
@@ -117,7 +195,7 @@ export PATH=$PATH:$SPARK_HOME/bin
 EOF
 ```
 
- spark-env.sh.setup.sh
+ spark-env-sh-setup.sh
  
  ```bash
 #!/usr/bin/env bash
@@ -141,10 +219,12 @@ spark-scp-files-to-worker.sh
  
  ```bash
 #!/usr/bin/env bash
-scp -r $SCALA_HOME/scalaout2-11.tar.gz pi@yellow-002:
-scp -r /usr/lib/jvm/java-8-openjdk-armhf/javaout8.tgz pi@yellow-002:
-scp -r /usr/local/spark/spark/sparkout.2-3-4.tgz pi@yellow-002:
-scp -r ~/spark-setup-worker.sh pi@yellow-002:
+scp -r $SCALA_HOME/scalaout2-11.tar.gz pi@yellow-001:
+scp -r /usr/lib/jvm/java-8-openjdk-armhf/javaout8.tgz pi@yellow-001:
+scp -r /usr/local/spark/spark/sparkout.2-3-4.tgz pi@yellow-001:
+scp -r ~/spark.setup.worker.sh pi@yellow-001:
+scp -r ~/spark-env.sh.setup.sh pi@yellow-001:                        
+scp -r ~/spark-bashrc.sh pi@yellow-001:
 ```
 spark-setup-worker.sh
 
@@ -170,8 +250,9 @@ cd /usr/local/spark/spark
 sudo mv ~/sparkout.2-3-4.tgz /usr/local/spark/spark/
 cd /usr/local/spark/spark
 sudo tar -xvzf sparkout.2-3-4.tgz
+sh ~/spark-env.sh.setup.sh                        
+sh ~/spark-bashrc.sh
 ```
-
 
 
 ## Starting Spark
@@ -182,12 +263,14 @@ Within the Master's spark directory and conf folder is a slaves file indicating
 sudo nano /usr/local/spark/spark/conf/slaves
 ```
 
-
 add following lines to slaves file:
 
 ```lines
 localhost
+yellow-001
 yellow-002
+yellow-003
+yellow-004
 ```
 
 Start master and then slave from master command line
