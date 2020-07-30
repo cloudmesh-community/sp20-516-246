@@ -1,8 +1,9 @@
-# Pi Spark Notebook 
+# Raspberry Pi Spark
 
 Rhonda Fischer, sp20-516-246
 
 ## Burning worker Pi cards
+
 From Pi Master (yellow) change to superuser and activate ENV3
 
     sudo su
