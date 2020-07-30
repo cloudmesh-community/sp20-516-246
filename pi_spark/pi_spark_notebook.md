@@ -1,4 +1,7 @@
-# Pi Spark Notebook by Rhonda Fischer sp20-516-246
+# Pi Spark Notebook 
+
+Rhonda Fischer, sp20-516-246
+
 ## Burning worker Pi cards
 From Pi Master (yellow) change to superuser and activate ENV3
 
